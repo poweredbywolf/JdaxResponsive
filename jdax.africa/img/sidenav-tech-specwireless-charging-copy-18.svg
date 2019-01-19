@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu/Terms">
+            <g id="Group-2">
+                <rect id="Rectangle-5" x="0" y="0" width="24" height="24"></rect>
+                <g id="Group" transform="translate(3.000000, 3.000000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round">
+                    <g id="Group-14" transform="translate(0.000000, 0.000900)">
+                        <path d="M15.0466,2.4127 C15.0466,1.5957 15.7086,0.9337 16.5256,0.9337 C17.3416,0.9337 18.0036,1.5957 18.0036,2.4127 L15.0466,2.4127 Z" id="Stroke-2"></path>
+                        <path d="M15.0415,2.4127 L15.0415,15.0737 C15.0415,16.2247 14.2135,17.2727 13.0685,17.3877 C11.7515,17.5187 10.6415,16.4887 10.6415,15.1987 C10.6415,13.9837 11.6265,12.9987 12.8415,12.9987 L3.6915,12.9987 L2.7285,12.9987 C1.5775,12.9987 0.5285,13.8267 0.4145,14.9727 C0.2825,16.2887 1.3125,17.3987 2.6025,17.3987 L3.6915,17.3967 L12.8415,17.3967" id="Stroke-4"></path>
+                        <path d="M2.9387,12.7691 L2.9387,2.4471 C2.9387,1.6111 3.6167,0.9331 4.4527,0.9331 L16.5247,0.9331" id="Stroke-6"></path>
+                        <path d="M6.0095,4.6285 L11.9745,4.6285" id="Stroke-8"></path>
+                        <path d="M6.0095,7.4156 L11.9745,7.4156" id="Stroke-10"></path>
+                        <path d="M6.0095,10.2027 L11.9745,10.2027" id="Stroke-12"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

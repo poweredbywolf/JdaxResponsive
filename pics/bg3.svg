@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="873px" viewBox="0 0 1440 873" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="93.030599%" y2="204.014533%" id="linearGradient-1">
+            <stop stop-color="#05C0C9" offset="0%"></stop>
+            <stop stop-color="#24C6A5" offset="24.741391%"></stop>
+            <stop stop-color="#82D739" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(0.000000, -1558.000000)" id="S4_Why">
+            <g transform="translate(0.000000, 1558.000000)">
+                <g id="bg">
+                    <polygon id="Mask" fill="url(#linearGradient-1)" transform="translate(720.000000, 436.500000) scale(-1, 1) rotate(180.000000) translate(-720.000000, -436.500000) " points="-1.13686838e-13 1.13686838e-13 1440 1.13686838e-13 1440 873 -9.98087141e-14 873"></polygon>
+                    <polygon id="Fill-3-Copy-2" fill-opacity="0.15" fill="#FFFFFF" transform="translate(315.328422, 725.500000) scale(-1, 1) translate(-315.328422, -725.500000) " points="630.656845 578 -1.8189894e-12 873 630.656845 873"></polygon>
+                    <polygon id="Fill-3-Copy" fill-opacity="0.2" fill="#05C0C9" points="1440 2 0 676.62725 0 873 1440 873"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,2784 @@
+
+@font-face {
+  font-family: "SFProText-Regular";
+  src: url('../fonts/SF-Pro-Text-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactText-Light";
+  src: url('../fonts/SFCompactText-Light.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactText-Bold";
+  src: url('../fonts/SFCompactText-Bold.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactText-Regular";
+  src: url('../fonts/SFCompactText-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFProText-Bold";
+  src: url('../fonts/SF-Pro-Text-Bold.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactText-Medium";
+  src: url('../fonts/SFCompactText-Medium.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactDisplay-Regular";
+  src: url('../fonts/SFCompactDisplay-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFProText-Medium";
+  src: url('../fonts/SF-Pro-Text-Medium.otf') format("opentype");
+}
+
+.kit5-fiat {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 2884px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(252, 252, 252, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.kit5-fiat .deposits-withdrawa {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 117px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 459px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 42.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 50.0px;
+}
+.kit5-fiat .graphics-x-grey {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 112px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1348px;
+}
+.kit5-fiat .graphics-x-grey .stroke1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .graphics-x-grey .stroke3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .for-fiat-currency-z {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 176px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 540px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : center;
+  line-height         : 36.0px;
+}
+.kit5-fiat .nav-bar1-default {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .nav-bar1-default .rectangle {
+  background-color    : rgba(36, 40, 48, 1.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .nav-bar1-default .rectangle4-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 196px;
+  opacity             : 0.0;
+}
+.kit5-fiat .nav-bar1-default .wallets {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 204px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit5-fiat .nav-bar1-default .rectangle4-copy1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 346px;
+  opacity             : 0.0;
+}
+.kit5-fiat .nav-bar1-default .exchange {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 354px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit5-fiat .nav-bar1-default .rectangle4-copy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 496px;
+  opacity             : 0.0;
+}
+.kit5-fiat .nav-bar1-default .information-kit {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 504px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit5-fiat .nav-bar1-default .rectangle4-copy3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 646px;
+  opacity             : 0.0;
+}
+.kit5-fiat .nav-bar1-default .support {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 654px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit5-fiat .nav-bar1-default .tool-bar-search-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 12px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+}
+.kit5-fiat .nav-bar1-default .tool-bar-search-copy .path3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .nav-bar1-default .tool-bar-search-copy .path3-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 2px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .nav-bar1-default .tool-bar-search-copy .path3-copy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 2px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .nav-bar1-default .jdax-logo-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 27px;
+  width               : 110px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+}
+.kit5-fiat .nav-bar1-default .jdax-logo-copy .fill1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 20px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+}
+.kit5-fiat .nav-bar1-default .jdax-logo-copy .fill3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 19px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+}
+.kit5-fiat .nav-bar1-default .jdax-logo-copy .fill5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 19px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+}
+.kit5-fiat .nav-bar1-default .jdax-logo-copy .fill7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 19px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+}
+.kit5-fiat .nav-bar1-default .jdax-logo-copy .group {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .nav-bar1-default .jdax-logo-copy .group .fill11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.kit5-fiat .nav-bar1-default .jdax-logo-copy .group .fill2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.kit5-fiat .nav-bar1-default .jdax-logo-copy .group .fill31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 18px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .nav-bar1-default .jdax-logo-copy .group .fill6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.kit5-fiat .nav-bar1-default .rectangle4-copy31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 995px;
+  opacity             : 0.0;
+}
+.kit5-fiat .nav-bar1-default .btc-zar136599 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 995px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit5-fiat .nav-bar1-default .log-in {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 70px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1280px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit5-fiat .nav-bar1-default .sign-up {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1185px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit5-fiat .nav-bar1-default .rectangle9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 32px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1165px;
+  border-radius       : 16px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(100, 107, 120, 1.0);
+}
+.kit5-fiat .withdrawing-money-fr {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1853px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 300px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.kit5-fiat .tech-spec-wireless-charging-copy9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1849px;
+  height              : 34px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 257px;
+}
+.kit5-fiat .tech-spec-wireless-charging-copy9 .group1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 11px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+}
+.kit5-fiat .tech-spec-wireless-charging-copy9 .group1 .stroke31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 11px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.kit5-fiat .tech-spec-wireless-charging-copy9 .group1 .stroke5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 5px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .tech-spec-wireless-charging-copy9 .group2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 12px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.kit5-fiat .tech-spec-wireless-charging-copy9 .group2 .oval {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .tech-spec-wireless-charging-copy9 .group2 .fill32 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 8px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit5-fiat .tech-spec-wireless-charging-copy9 .stroke7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 18px;
+  height              : 16px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .rectangle3-copy16 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 1774px;
+  height              : 1px;
+  width               : 980px;
+  position            : absolute;
+  margin              : 0;
+  left                : 230px;
+}
+.kit5-fiat .group3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 359px;
+  height              : 32px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 686px;
+}
+.kit5-fiat .group3 .rectangle5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .group3 .stroke4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 16px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.kit5-fiat .group3 .stroke6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 5px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.kit5-fiat .group3 .fill71 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : 8px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.kit5-fiat .through-bank-transfe {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 365px;
+  height              : auto;
+  width               : 370px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFProText-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 21.0px;
+}
+.kit5-fiat .go-to-your-zar-walle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 419px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit5-fiat .we-accept-deposits-f {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 574px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit5-fiat .if-you-want-to-buy-d {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 447px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit5-fiat .select-your-bank {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 546px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit5-fiat .you-can-deposit-a-mi {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 743px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit5-fiat .enter-amount {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 715px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit5-fiat .your-unique-referenc {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 870px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit5-fiat .go-make-deposit-with {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 842px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit5-fiat .page-control4-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 981px;
+  height              : 7px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 378px;
+}
+.kit5-fiat .page-control4-copy .active {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .page-control4-copy .inactive {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.kit5-fiat .page-control4-copy .inactive1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.kit5-fiat .page-control4-copy .inactive-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+}
+.kit5-fiat .page-control4-copy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1686px;
+  height              : 7px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 378px;
+}
+.kit5-fiat .page-control4-copy2 .active1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .page-control4-copy2 .inactive2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.kit5-fiat .page-control4-copy2 .inactive3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.kit5-fiat .page-control4-copy2 .inactive-copy1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+}
+.kit5-fiat .page-control4-copy3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2519px;
+  height              : 7px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 378px;
+}
+.kit5-fiat .page-control4-copy3 .active2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .page-control4-copy3 .inactive4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.kit5-fiat .page-control4-copy3 .inactive5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.kit5-fiat .page-control4-copy3 .inactive-copy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+}
+.kit5-fiat .graphics-nav-forward-grey-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 672px;
+  height              : 40px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 594px;
+}
+.kit5-fiat .graphics-nav-forward-grey-copy .path3-copy1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 25px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .group4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1064px;
+  height              : 32px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 686px;
+}
+.kit5-fiat .group4 .rectangle51 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .group4 .stroke41 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 20px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.kit5-fiat .group4 .stroke61 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 6px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.kit5-fiat .group4 .stroke8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 20px;
+  height              : 2px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+}
+.kit5-fiat .group4 .stroke9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 17px;
+  height              : 2px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+}
+.kit5-fiat .group4 .stroke10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 6px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.kit5-fiat .through-debit-cred {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1070px;
+  height              : auto;
+  width               : 370px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFProText-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 21.0px;
+}
+.kit5-fiat .go-to-your-zar-walle1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1124px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit5-fiat .to-make-your-deposit {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1279px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit5-fiat .if-you-want-to-buy-d1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1152px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit5-fiat .select-your-card {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1251px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit5-fiat .you-can-deposit-a-mi1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1511px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit5-fiat .enter-amount1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1483px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit5-fiat .when-you-confirm-th {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1638px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit5-fiat .make-a-quick-deposit {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1610px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit5-fiat .graphics-nav-forward-grey-copy1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1377px;
+  height              : 40px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 594px;
+}
+.kit5-fiat .graphics-nav-forward-grey-copy1 .path3-copy3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 25px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .go-to-your-zar-walle2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1957px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit5-fiat .graphics-numbers1-copy5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2105px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 684px;
+}
+.kit5-fiat .graphics-numbers1-copy5 .oval2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .graphics-numbers1-copy5 .a2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(5, 192, 200, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit5-fiat .graphics-numbers1-copy6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1957px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 684px;
+}
+.kit5-fiat .graphics-numbers1-copy6 .oval21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .graphics-numbers1-copy6 .a1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(5, 192, 200, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit5-fiat .graphics-numbers1-copy7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2232px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 684px;
+}
+.kit5-fiat .graphics-numbers1-copy7 .oval22 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .graphics-numbers1-copy7 .a3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(5, 192, 200, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit5-fiat .graphics-numbers1-copy9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2422px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 684px;
+}
+.kit5-fiat .graphics-numbers1-copy9 .oval23 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .graphics-numbers1-copy9 .a4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(5, 192, 200, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit5-fiat .enter-the-amount-you {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2133px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit5-fiat .once-youve-sold-dig {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1985px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit5-fiat .enter-amount2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2105px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit5-fiat .select-one-of-your-b {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2260px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit5-fiat .select-recipient-ban {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2232px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit5-fiat .all-the-relevant-det {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2450px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit5-fiat .enter-confirmation-c {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2422px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 729px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit5-fiat .rectangle4 {
+  background-color    : rgba(36, 40, 48, 1.0);
+  top                 : 2600px;
+  height              : 284px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .what-is-fiat {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2656px;
+  height              : auto;
+  width               : 279px;
+  position            : absolute;
+  margin              : 0;
+  left                : 255px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(100, 107, 120, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit5-fiat .fiat-refers-to-tradi {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2691px;
+  height              : auto;
+  width               : 279px;
+  position            : absolute;
+  margin              : 0;
+  left                : 255px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(181, 189, 202, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.34px;
+  line-height         : 20.0px;
+}
+.kit5-fiat .supported-fiat-curre {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2656px;
+  height              : auto;
+  width               : 279px;
+  position            : absolute;
+  margin              : 0;
+  left                : 581px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(100, 107, 120, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit5-fiat .at-present-the-only {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2691px;
+  height              : auto;
+  width               : 279px;
+  position            : absolute;
+  margin              : 0;
+  left                : 581px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(181, 189, 202, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.34px;
+  line-height         : 20.0px;
+}
+.kit5-fiat .what-is-a-zar-wallet {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2656px;
+  height              : auto;
+  width               : 279px;
+  position            : absolute;
+  margin              : 0;
+  left                : 906px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(100, 107, 120, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit5-fiat .this-is-where-you-st {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2691px;
+  height              : auto;
+  width               : 279px;
+  position            : absolute;
+  margin              : 0;
+  left                : 906px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(181, 189, 202, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.34px;
+  line-height         : 20.0px;
+}
+.kit5-fiat .depositing-money-int {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 290px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 300px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.kit5-fiat .tech-spec-wireless-charging-copy12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 285px;
+  height              : 35px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 257px;
+}
+.kit5-fiat .tech-spec-wireless-charging-copy12 .group5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 19px;
+  height              : 11px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+}
+.kit5-fiat .tech-spec-wireless-charging-copy12 .stroke71 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 19px;
+  height              : 16px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .tech-spec-wireless-charging-copy12 .group6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.kit5-fiat .tech-spec-wireless-charging-copy12 .group6 .oval1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .tech-spec-wireless-charging-copy12 .group6 .fill33 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 8px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit5-fiat .group31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 413px;
+  height              : 557px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 249px;
+}
+.kit5-fiat .group31 .mask-copy12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 557px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .group31 .rectangle13-copy13 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 56px;
+  height              : 1px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.kit5-fiat .group31 .group9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 19px;
+  height              : 24px;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 97px;
+}
+.kit5-fiat .group31 .group9 .deposit {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit5-fiat .group31 .group9 .group7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .group31 .group9 .group7 .rectangle4-copy4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 12px;
+}
+.kit5-fiat .group31 .group9 .group7 .stroke32 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 12px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+}
+.kit5-fiat .group31 .group9 .group7 .stroke51 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 6px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.kit5-fiat .group31 .group9 .group7 .stroke72 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : 7px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.kit5-fiat .group31 .rectangle13-copy14 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 109px;
+  height              : 1px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.kit5-fiat .group31 .rectangle13-copy15 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 170px;
+  height              : 1px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.kit5-fiat .group31 .rectangle13-copy16 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 231px;
+  height              : 1px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.kit5-fiat .group31 .debit-or-credit-card {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 185px;
+  height              : auto;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  font-family         : "SFProText-Medium", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.kit5-fiat .group31 .bank-transfer {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 124px;
+  height              : auto;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  font-family         : "SFProText-Medium", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.kit5-fiat .group31 .from-zar200-to-any {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 146px;
+  height              : auto;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.kit5-fiat .group31 .from-zar20-to-zar5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 207px;
+  height              : auto;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.kit5-fiat .group31 .select-payment-metho {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 83px;
+  height              : auto;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 14.0px;
+}
+.kit5-fiat .group31 .graphics-nav-forward-small-grey-copy7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 133px;
+  height              : 14px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 263px;
+}
+.kit5-fiat .group31 .graphics-nav-forward-small-grey-copy7 .path3-copy4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -1px;
+  height              : 15px;
+  width               : 10px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .group31 .graphics-nav-forward-small-grey-copy8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 194px;
+  height              : 14px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 263px;
+}
+.kit5-fiat .group31 .graphics-nav-forward-small-grey-copy8 .path3-copy5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -1px;
+  height              : 15px;
+  width               : 10px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .group31 .tech-spec-size-copy3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 189px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.kit5-fiat .group31 .tech-spec-size-copy3 .rectangle52 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .group31 .tech-spec-size-copy3 .group8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 16px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.kit5-fiat .group31 .tech-spec-size-copy3 .group8 .stroke42 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .group31 .tech-spec-size-copy3 .group8 .stroke62 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 3px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .group31 .tech-spec-size-copy3 .group8 .stroke81 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 2px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.kit5-fiat .group31 .tech-spec-size-copy3 .group8 .stroke91 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 8px;
+  height              : 2px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.kit5-fiat .group31 .tech-spec-size-copy3 .group8 .stroke101 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 8px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.kit5-fiat .group31 .group10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 128px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.kit5-fiat .group31 .group10 .rectangle53 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .group31 .group10 .stroke43 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 13px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.kit5-fiat .group31 .group10 .stroke63 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 3px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.kit5-fiat .group31 .group10 .fill72 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 7px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.kit5-fiat .graphics-nav-forward-grey-copy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2210px;
+  height              : 40px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 594px;
+}
+.kit5-fiat .graphics-nav-forward-grey-copy2 .path3-copy6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 25px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .group11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1951px;
+  height              : 557px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 249px;
+}
+.kit5-fiat .group11 .mask-copy11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 557px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .group11 .rectangle13-copy12 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 56px;
+  height              : 1px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.kit5-fiat .group11 .group71 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 473px;
+  height              : 42px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.kit5-fiat .group11 .group71 .rectangle3-copy5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .group11 .group71 .next {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 137px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.0px;
+  line-height         : 16.0px;
+}
+.kit5-fiat .group11 .group101 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 19px;
+  height              : 24px;
+  width               : 119px;
+  position            : absolute;
+  margin              : 0;
+  left                : 87px;
+}
+.kit5-fiat .group11 .group101 .group12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .group11 .group101 .group12 .rectangle4-copy41 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 12px;
+}
+.kit5-fiat .group11 .group101 .group12 .stroke33 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 12px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+}
+.kit5-fiat .group11 .group101 .group12 .stroke52 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 6px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.kit5-fiat .group11 .group101 .group12 .stroke73 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : 7px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.kit5-fiat .group11 .group101 .withdraw {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit5-fiat .group11 .amount-to-withdraw {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 83px;
+  height              : auto;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 14.0px;
+}
+.kit5-fiat .group11 .enter-amount3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 119px;
+  height              : auto;
+  width               : 108px;
+  position            : absolute;
+  margin              : 0;
+  left                : 134px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.kit5-fiat .group11 .minimum-withdrawal-z {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 153px;
+  height              : auto;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 134px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.kit5-fiat .group11 .rectangle3-copy3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 109px;
+  height              : 40px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(236, 236, 236, 1.0);
+}
+.kit5-fiat .group11 .z-ar {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 121px;
+  height              : auto;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  font-family         : "SFProText-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.kit5-fiat .group11 .rectangle3-copy13 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 109px;
+  height              : 40px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 117px;
+}
+.kit5-fiat .group11 .to-account {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 185px;
+  height              : auto;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 14.0px;
+}
+.kit5-fiat .group11 .rectangle3-copy18 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 211px;
+  height              : 40px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(236, 236, 236, 1.0);
+}
+.kit5-fiat .group11 .choose-bank-account {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 221px;
+  height              : auto;
+  width               : 175px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.kit5-fiat .group11 .graphics-nav-forward-small-grey-copy11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 227px;
+  height              : 9px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 249px;
+}
+.kit5-fiat .group11 .graphics-nav-forward-small-grey-copy11 .path3-copy21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -3px;
+  height              : 15px;
+  width               : 10px;
+  position            : relative;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(-90deg); /* IE 9 */
+  -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-90deg);
+}
+.kit5-fiat .graphics-numbers1-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 546px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 684px;
+}
+.kit5-fiat .graphics-numbers1-copy .oval24 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .graphics-numbers1-copy .a21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(130, 214, 57, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit5-fiat .graphics-numbers1-copy51 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1251px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 684px;
+}
+.kit5-fiat .graphics-numbers1-copy51 .oval25 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .graphics-numbers1-copy51 .a22 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(130, 214, 57, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit5-fiat .graphics-numbers1-copy4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 419px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 684px;
+}
+.kit5-fiat .graphics-numbers1-copy4 .oval26 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .graphics-numbers1-copy4 .a11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(130, 214, 57, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit5-fiat .graphics-numbers1-copy61 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1124px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 684px;
+}
+.kit5-fiat .graphics-numbers1-copy61 .oval27 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .graphics-numbers1-copy61 .a12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(130, 214, 57, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit5-fiat .graphics-numbers1-copy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 715px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 684px;
+}
+.kit5-fiat .graphics-numbers1-copy2 .oval28 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .graphics-numbers1-copy2 .a31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(130, 214, 57, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit5-fiat .graphics-numbers1-copy71 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1483px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 684px;
+}
+.kit5-fiat .graphics-numbers1-copy71 .oval29 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .graphics-numbers1-copy71 .a32 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(130, 214, 57, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit5-fiat .graphics-numbers1-copy3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 842px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 684px;
+}
+.kit5-fiat .graphics-numbers1-copy3 .oval210 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .graphics-numbers1-copy3 .a41 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(130, 214, 57, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit5-fiat .graphics-numbers1-copy8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1610px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 684px;
+}
+.kit5-fiat .graphics-numbers1-copy8 .oval211 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .graphics-numbers1-copy8 .a42 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(130, 214, 57, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit5-fiat .group32 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1118px;
+  height              : 557px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 249px;
+}
+.kit5-fiat .group32 .mask-copy121 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 557px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .group32 .rectangle13-copy131 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 56px;
+  height              : 1px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.kit5-fiat .group32 .group91 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 19px;
+  height              : 24px;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 97px;
+}
+.kit5-fiat .group32 .group91 .deposit1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit5-fiat .group32 .group91 .group13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .group32 .group91 .group13 .rectangle4-copy42 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 12px;
+}
+.kit5-fiat .group32 .group91 .group13 .stroke34 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 12px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+}
+.kit5-fiat .group32 .group91 .group13 .stroke53 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 6px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.kit5-fiat .group32 .group91 .group13 .stroke74 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : 7px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.kit5-fiat .group32 .rectangle13-copy141 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 109px;
+  height              : 1px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.kit5-fiat .group32 .rectangle13-copy151 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 170px;
+  height              : 1px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.kit5-fiat .group32 .rectangle13-copy161 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 231px;
+  height              : 1px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.kit5-fiat .group32 .debit-or-credit-card1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 185px;
+  height              : auto;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  font-family         : "SFProText-Medium", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.kit5-fiat .group32 .bank-transfer1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 124px;
+  height              : auto;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  font-family         : "SFProText-Medium", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.kit5-fiat .group32 .from-zar200-to-any1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 146px;
+  height              : auto;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.kit5-fiat .group32 .from-zar20-to-zar51 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 207px;
+  height              : auto;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.kit5-fiat .group32 .select-payment-metho1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 83px;
+  height              : auto;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 14.0px;
+}
+.kit5-fiat .group32 .graphics-nav-forward-small-grey-copy71 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 133px;
+  height              : 14px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 263px;
+}
+.kit5-fiat .group32 .graphics-nav-forward-small-grey-copy71 .path3-copy7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -1px;
+  height              : 15px;
+  width               : 10px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .group32 .graphics-nav-forward-small-grey-copy81 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 194px;
+  height              : 14px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 263px;
+}
+.kit5-fiat .group32 .graphics-nav-forward-small-grey-copy81 .path3-copy8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -1px;
+  height              : 15px;
+  width               : 10px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .group32 .tech-spec-size-copy31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 189px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.kit5-fiat .group32 .tech-spec-size-copy31 .rectangle54 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .group32 .tech-spec-size-copy31 .group14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 16px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.kit5-fiat .group32 .tech-spec-size-copy31 .group14 .stroke44 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .group32 .tech-spec-size-copy31 .group14 .stroke64 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 3px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .group32 .tech-spec-size-copy31 .group14 .stroke82 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 2px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.kit5-fiat .group32 .tech-spec-size-copy31 .group14 .stroke92 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 8px;
+  height              : 2px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.kit5-fiat .group32 .tech-spec-size-copy31 .group14 .stroke102 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 8px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.kit5-fiat .group32 .group15 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 128px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.kit5-fiat .group32 .group15 .rectangle55 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit5-fiat .group32 .group15 .stroke45 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 13px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.kit5-fiat .group32 .group15 .stroke65 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 3px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.kit5-fiat .group32 .group15 .fill73 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 7px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

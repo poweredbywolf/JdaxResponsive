@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu/Fees">
+            <g id="Group-2">
+                <rect id="Rectangle-5" x="0" y="0" width="24" height="24"></rect>
+                <g id="Group" transform="translate(2.000000, 6.000000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline id="Stroke-2" points="9.0184 3.481 1.4374 3.481 1.4374 0.961 10.0704 0.961 10.0704 2.407"></polyline>
+                    <polyline id="Stroke-3" points="9.7243 11.0396 1.3613 11.0396 1.3613 8.5196 8.1123 8.5196"></polyline>
+                    <polyline id="Stroke-4" points="7.9833 6.0005 0.5933 6.0005 0.5933 3.4795 8.8183 3.4805"></polyline>
+                    <polyline id="Stroke-5" points="8.1127 8.5191 2.2827 8.5191 2.2827 5.9991 8.0657 5.9991"></polyline>
+                    <path d="M17.7404,2.8814 C19.9634,5.1054 19.9634,8.7094 17.7404,10.9334 C15.5164,13.1564 11.9114,13.1564 9.6884,10.9334 C7.4644,8.7094 7.4644,5.1054 9.6884,2.8814 C11.9114,0.6574 15.5164,0.6574 17.7404,2.8814 Z" id="Stroke-6"></path>
+                    <path d="M12.4701,4.5288 C12.8631,4.9318 12.8631,5.5868 12.4701,5.9908 C12.0771,6.3938 11.4391,6.3938 11.0461,5.9908 C10.6531,5.5868 10.6531,4.9318 11.0461,4.5288 C11.4391,4.1248 12.0771,4.1248 12.4701,4.5288 Z" id="Stroke-8"></path>
+                    <path d="M16.3822,7.8247 C16.7752,8.2277 16.7752,8.8827 16.3822,9.2867 C15.9892,9.6897 15.3512,9.6897 14.9582,9.2867 C14.5652,8.8827 14.5652,8.2277 14.9582,7.8247 C15.3512,7.4207 15.9892,7.4207 16.3822,7.8247 Z" id="Stroke-10"></path>
+                    <path d="M15.5966,4.2261 L11.8326,9.5891" id="Stroke-12"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

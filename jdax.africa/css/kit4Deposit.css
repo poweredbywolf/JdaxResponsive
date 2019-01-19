@@ -1,0 +1,5861 @@
+
+@font-face {
+  font-family: "SFProText-Regular";
+  src: url('../fonts/SF-Pro-Text-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactText-Light";
+  src: url('../fonts/SFCompactText-Light.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactText-Bold";
+  src: url('../fonts/SFCompactText-Bold.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactText-Regular";
+  src: url('../fonts/SFCompactText-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFProText-Bold";
+  src: url('../fonts/SF-Pro-Text-Bold.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactText-Medium";
+  src: url('../fonts/SFCompactText-Medium.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactDisplay-Regular";
+  src: url('../fonts/SFCompactDisplay-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFProText-Medium";
+  src: url('../fonts/SF-Pro-Text-Medium.otf') format("opentype");
+}
+
+.kit4-deposit {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 1464px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(252, 252, 252, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.kit4-deposit .enter-the-amount-wan {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 491px;
+  height              : auto;
+  width               : 504px;
+  position            : absolute;
+  margin              : 0;
+  left                : 300px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit4-deposit .select-wallets-from {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 385px;
+  height              : auto;
+  width               : 504px;
+  position            : absolute;
+  margin              : 0;
+  left                : 300px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit4-deposit .enter-amount {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 463px;
+  height              : auto;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 300px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit4-deposit .go-to-your-wallet {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 357px;
+  height              : auto;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 300px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit4-deposit .paste-the-wallet-add {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 597px;
+  height              : auto;
+  width               : 504px;
+  position            : absolute;
+  margin              : 0;
+  left                : 300px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit4-deposit .copy-and-paste-the-r {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 569px;
+  height              : auto;
+  width               : 392px;
+  position            : absolute;
+  margin              : 0;
+  left                : 300px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit4-deposit .there-will-be-a-send {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 703px;
+  height              : auto;
+  width               : 504px;
+  position            : absolute;
+  margin              : 0;
+  left                : 300px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit4-deposit .confirm-and-send {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 675px;
+  height              : auto;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 300px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit4-deposit .graphics-nav-forward-grey-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 534px;
+  height              : 40px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1224px;
+}
+.kit4-deposit .graphics-nav-forward-grey-copy .path3-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 25px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .graphics-nav-forward-grey-copy3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1120px;
+  height              : 40px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1224px;
+}
+.kit4-deposit .graphics-nav-forward-grey-copy3 .path3-copy1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 25px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 917px;
+  height              : 445px;
+  width               : 256px;
+  position            : absolute;
+  margin              : 0;
+  left                : 935px;
+}
+.kit4-deposit .group20 .mask-copy10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 445px;
+  width               : 256px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 .rectangle13-copy {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 56px;
+  height              : 1px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+}
+.kit4-deposit .group20 .your-btc-receive-add {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 83px;
+  height              : auto;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 14.0px;
+}
+.kit4-deposit .group20 .use-any-of-these-add {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 103px;
+  height              : auto;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.34px;
+  line-height         : 20.0px;
+}
+.kit4-deposit .group20 .group9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 169px;
+  height              : 40px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+}
+.kit4-deposit .group20 .group9 .graphics-nav-forward-small-grey-copy10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 9px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 185px;
+}
+.kit4-deposit .group20 .group9 .graphics-nav-forward-small-grey-copy10 .path3-copy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -3px;
+  height              : 15px;
+  width               : 10px;
+  position            : relative;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(-90deg); /* IE 9 */
+  -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-90deg);
+}
+.kit4-deposit .group20 .group9 .rectangle3-copy18 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(236, 236, 236, 1.0);
+}
+.kit4-deposit .group20 .group9 .btc-address1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  font-family         : "SFProText-Medium", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.kit4-deposit .group20 .group7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 19px;
+  height              : 24px;
+  width               : 98px;
+  position            : absolute;
+  margin              : 0;
+  left                : 69px;
+}
+.kit4-deposit .group20 .group7 .group {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 .group7 .group .rectangle4-copy4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 12px;
+}
+.kit4-deposit .group20 .group7 .group .stroke3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 12px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+}
+.kit4-deposit .group20 .group7 .group .stroke5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 6px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.kit4-deposit .group20 .group7 .group .stroke7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : 7px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.kit4-deposit .group20 .group7 .receive {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 225px;
+  height              : 100px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 78px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath1 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath2 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath3 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath4 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath5 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath6 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath7 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath8 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath9 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath10 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath11 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath12 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 55px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath13 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath14 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath15 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath16 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath17 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 75px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath18 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 79px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath19 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath20 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath21 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath22 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath23 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath24 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 3px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath25 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 3px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath26 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 3px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath27 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 3px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath28 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 3px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath29 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 3px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath30 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 3px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath31 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 3px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath32 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 3px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath33 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 3px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath34 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 3px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 75px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath35 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 3px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath36 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 6px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath37 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 6px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath38 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 6px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath39 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 6px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath40 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 6px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath41 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 6px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath42 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 6px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath43 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 6px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath44 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 6px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath45 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 6px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath46 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 6px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 75px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath47 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 6px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath48 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 6px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath49 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 6px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath50 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 6px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath51 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 10px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath52 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 10px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath53 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 10px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath54 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 10px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath55 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 10px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath56 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 10px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath57 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 10px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath58 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 10px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath59 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 10px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath60 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 10px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath61 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 10px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 75px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath62 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 10px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath63 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 10px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath64 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 10px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath65 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 10px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath66 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 13px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath67 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 13px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath68 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 13px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath69 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 13px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath70 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 13px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath71 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 13px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath72 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 13px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath73 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 13px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath74 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 13px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath75 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 13px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 75px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath76 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 13px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath77 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 13px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath78 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 13px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath79 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 13px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath80 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 17px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath81 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 17px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath82 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 17px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath83 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 17px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath84 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 17px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath85 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 17px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath86 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 17px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath87 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 17px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath88 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 17px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 75px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath89 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 17px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath90 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 20px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath91 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 20px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath92 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 20px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath93 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 20px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath94 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 20px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath95 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 20px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath96 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 20px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath97 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 20px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath98 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 20px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath99 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 20px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath100 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 20px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath101 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 20px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 55px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath102 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 20px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath103 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 20px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath104 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 20px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 75px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath105 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 20px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 79px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath106 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 20px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath107 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 20px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath108 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 20px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath109 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 20px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath110 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 20px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath111 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 24px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath112 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 24px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath113 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 24px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath114 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 24px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath115 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 24px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath116 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 24px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath117 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 24px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 55px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath118 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 24px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath119 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 24px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath120 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 24px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath121 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 27px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath122 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 27px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath123 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 27px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath124 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 27px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath125 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 27px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath126 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 27px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath127 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 27px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath128 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 27px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath129 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 27px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath130 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 27px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath131 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 27px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath132 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 27px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 55px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath133 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 27px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath134 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 27px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath135 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 27px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 75px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath136 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 27px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath137 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 27px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath138 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 27px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath139 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 31px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath140 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 31px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath141 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 31px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath142 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 31px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath143 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 31px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath144 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 31px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath145 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 31px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath146 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 31px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 75px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath147 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 31px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 79px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath148 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 31px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath149 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 31px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath150 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 34px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath151 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 34px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath152 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 34px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath153 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 34px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath154 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 34px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath155 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 34px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 55px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath156 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 34px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath157 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 34px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath158 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 34px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath159 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 37px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath160 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 37px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath161 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 37px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath162 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 37px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath163 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 37px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath164 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 37px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath165 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 37px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath166 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 37px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath167 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 37px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath168 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 37px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath169 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 37px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath170 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 37px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath171 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 37px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath172 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 37px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath173 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 37px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath174 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 37px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath175 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 37px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 75px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath176 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 37px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 79px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath177 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 37px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath178 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 37px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath179 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 37px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath180 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 41px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath181 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 41px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath182 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 41px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath183 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 41px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath184 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 41px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath185 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 41px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath186 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 41px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath187 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 41px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath188 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 41px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath189 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 41px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath190 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 41px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath191 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 41px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath192 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 41px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath193 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 44px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath194 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 44px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath195 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 44px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath196 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 44px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath197 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 44px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath198 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 44px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath199 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 44px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath200 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 44px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath201 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 44px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath202 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 44px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath203 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 44px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath204 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 44px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 55px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath205 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 44px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath206 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 44px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath207 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 44px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 75px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath208 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 44px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath209 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 44px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath210 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 48px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath211 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 48px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath212 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 48px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath213 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 48px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath214 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 48px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath215 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 48px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath216 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 48px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath217 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 48px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath218 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 48px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath219 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 48px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 55px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath220 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 48px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath221 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 48px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath222 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 48px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath223 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 48px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 79px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath224 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 48px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath225 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 48px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath226 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 48px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath227 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 48px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath228 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 51px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath229 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 51px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath230 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 51px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath231 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 51px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath232 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 51px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath233 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 51px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath234 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 51px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath235 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 51px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath236 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 51px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 75px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath237 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 51px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath238 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 55px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath239 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 55px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath240 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 55px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath241 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 55px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath242 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 55px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath243 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 55px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath244 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 55px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 55px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath245 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 55px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath246 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 55px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath247 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 55px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 79px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath248 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 55px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath249 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 55px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath250 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 58px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath251 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 58px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath252 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 58px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath253 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 58px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath254 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 58px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath255 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 58px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath256 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 58px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath257 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 58px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath258 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 58px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath259 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 58px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 79px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath260 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 58px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath261 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 58px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath262 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 62px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath263 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 62px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath264 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 62px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath265 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 62px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath266 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 62px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath267 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 62px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath268 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 62px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath269 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 62px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath270 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 62px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath271 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 62px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 55px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath272 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 62px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath273 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 62px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 75px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath274 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 62px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 79px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath275 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 62px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath276 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 62px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath277 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 65px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath278 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 65px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath279 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 65px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath280 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 65px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath281 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 65px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath282 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 65px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath283 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 65px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath284 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 65px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath285 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 65px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 55px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath286 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 65px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath287 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 65px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath288 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 65px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath289 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 65px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath290 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 65px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 79px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath291 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 65px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath292 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 65px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath293 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 68px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath294 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 68px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath295 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 68px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath296 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 68px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath297 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 68px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath298 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 68px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath299 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 68px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath300 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 68px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath301 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 68px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath302 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 68px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 55px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath303 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 68px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath304 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 68px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath305 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 68px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath306 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 68px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath307 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 68px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath308 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 68px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 75px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath309 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 68px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 79px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath310 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 68px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath311 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 68px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath312 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 68px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath313 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 72px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath314 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 72px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath315 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 72px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath316 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 72px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath317 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 72px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath318 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 72px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath319 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 72px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 55px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath320 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 72px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath321 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 72px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath322 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 72px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath323 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 72px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath324 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 72px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath325 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 72px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath326 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 72px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath327 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 72px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath328 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 75px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath329 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 75px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath330 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 75px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath331 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 75px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath332 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 75px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath333 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 75px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath334 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 75px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath335 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 75px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath336 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 75px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath337 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 75px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath338 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 75px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath339 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 75px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath340 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 75px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath341 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 75px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath342 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 75px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath343 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 75px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 75px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath344 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 75px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath345 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 75px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath346 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 75px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath347 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 79px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath348 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 79px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath349 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 79px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath350 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 79px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath351 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 79px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath352 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 79px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath353 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 79px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath354 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 79px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath355 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 79px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath356 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 79px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath357 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 79px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath358 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 82px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath359 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 82px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath360 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 82px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath361 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 82px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath362 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 82px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath363 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 82px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath364 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 82px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath365 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 82px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath366 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 82px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath367 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 82px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath368 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 82px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath369 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 82px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath370 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 82px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath371 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 82px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 75px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath372 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 82px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 79px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath373 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 82px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath374 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 82px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath375 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 82px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath376 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 82px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath377 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 86px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath378 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 86px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath379 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 86px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath380 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 86px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath381 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 86px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath382 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 86px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath383 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 86px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath384 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 86px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath385 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 86px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath386 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 86px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath387 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 86px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 79px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath388 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 86px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath389 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 86px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath390 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 86px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath391 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 86px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath392 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 89px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath393 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 89px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath394 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 89px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath395 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 89px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath396 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 89px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath397 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 89px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath398 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 89px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath399 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 89px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath400 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 89px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath401 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 89px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath402 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 89px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 79px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath403 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 89px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath404 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 89px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath405 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 93px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath406 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 93px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath407 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 93px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath408 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 93px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath409 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 93px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath410 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 93px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath411 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 93px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath412 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 93px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath413 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 93px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath414 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 93px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath415 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 93px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 79px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath416 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 93px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath417 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 93px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath418 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 93px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath419 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 96px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath420 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 96px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath421 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 96px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath422 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 96px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath423 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 96px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath424 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 96px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath425 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 96px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath426 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 96px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath427 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 96px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath428 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 96px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath429 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 96px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath430 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 96px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath431 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 96px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath432 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 96px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath433 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 96px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 79px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath434 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 96px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+}
+.kit4-deposit .group20 .wm2007-qrcode-copy .rectanglepath435 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 96px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+}
+.kit4-deposit .group20 .group2-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 381px;
+  height              : 42px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+}
+.kit4-deposit .group20 .group2-copy .rectangle3-copy5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 .group2-copy .copy-to-share {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.0px;
+  line-height         : 16.0px;
+}
+.kit4-deposit .group20 .group2-copy .graphics-nav-forward-small-grey-copy12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 21px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+}
+.kit4-deposit .group20 .group2-copy .graphics-nav-forward-small-grey-copy12 .stroke2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group20 .group2-copy .graphics-nav-forward-small-grey-copy12 .stroke4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.kit4-deposit .group20 .a3-pe9-kbdr-gkh5s-q-bz-wos9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 331px;
+  height              : auto;
+  width               : 112px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : center;
+  line-height         : 12.0px;
+}
+.kit4-deposit .group18 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 331px;
+  height              : 445px;
+  width               : 256px;
+  position            : absolute;
+  margin              : 0;
+  left                : 935px;
+}
+.kit4-deposit .group18 .mask-copy101 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 445px;
+  width               : 256px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group18 .rectangle13-copy1 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 56px;
+  height              : 1px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+}
+.kit4-deposit .group18 .group1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 381px;
+  height              : 42px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+}
+.kit4-deposit .group18 .group1 .rectangle3-copy51 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group18 .group1 .next {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 137px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.0px;
+  line-height         : 16.0px;
+}
+.kit4-deposit .group18 .your-amount {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 83px;
+  height              : auto;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 14.0px;
+}
+.kit4-deposit .group18 .group8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 103px;
+  height              : 40px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+}
+.kit4-deposit .group18 .group8 .rectangle3-copy3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(236, 236, 236, 1.0);
+}
+.kit4-deposit .group18 .group8 .b-tc {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  font-family         : "SFProText-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.kit4-deposit .group18 .group8 .rectangle3-copy13 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 85px;
+}
+.kit4-deposit .group18 .group8 .type-amount {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 102px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.kit4-deposit .group18 .zar0 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 147px;
+  height              : auto;
+  width               : 110px;
+  position            : absolute;
+  margin              : 0;
+  left                : 124px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.kit4-deposit .group18 .to {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 169px;
+  height              : auto;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 14.0px;
+}
+.kit4-deposit .group18 .note {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 255px;
+  height              : auto;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 14.0px;
+}
+.kit4-deposit .group18 .group17 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 189px;
+  height              : 40px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+}
+.kit4-deposit .group18 .group17 .rectangle3-copy181 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(236, 236, 236, 1.0);
+}
+.kit4-deposit .group18 .group17 .paste-recipient-addr {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.kit4-deposit .group18 .group17 .graphics-nav-forward-small-grey-copy13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : 18px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 181px;
+}
+.kit4-deposit .group18 .group17 .graphics-nav-forward-small-grey-copy13 .stroke41 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.kit4-deposit .group18 .group17 .graphics-nav-forward-small-grey-copy13 .stroke6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.kit4-deposit .group18 .group17 .graphics-nav-forward-small-grey-copy13 .stroke8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.kit4-deposit .group18 .group17 .graphics-nav-forward-small-grey-copy13 .stroke10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.kit4-deposit .group18 .group17 .graphics-nav-forward-small-grey-copy13 .stroke12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 8px;
+  height              : 1px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group18 .group16 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 275px;
+  height              : 40px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+}
+.kit4-deposit .group18 .group16 .rectangle3-copy182 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(236, 236, 236, 1.0);
+}
+.kit4-deposit .group18 .group16 .add-a-note {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.kit4-deposit .group18 .group16 .a20 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 184px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.kit4-deposit .group18 .group10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 19px;
+  height              : 24px;
+  width               : 74px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+}
+.kit4-deposit .group18 .group10 .group2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group18 .group10 .group2 .rectangle4-copy41 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 12px;
+}
+.kit4-deposit .group18 .group10 .group2 .stroke31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 12px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+}
+.kit4-deposit .group18 .group10 .group2 .stroke51 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 6px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.kit4-deposit .group18 .group10 .group2 .stroke71 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : 7px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.kit4-deposit .group18 .group10 .send {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit4-deposit .sending-digital-curr {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 290px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 300px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.kit4-deposit .tech-spec-wireless-charging-copy12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 286px;
+  height              : 34px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 257px;
+}
+.kit4-deposit .tech-spec-wireless-charging-copy12 .group4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 12px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.kit4-deposit .tech-spec-wireless-charging-copy12 .group4 .group3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 10px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+}
+.kit4-deposit .tech-spec-wireless-charging-copy12 .group4 .group3 .stroke1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1px;
+  height              : 5px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .tech-spec-wireless-charging-copy12 .group4 .group3 .stroke32 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 5px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .tech-spec-wireless-charging-copy12 .group4 .group3 .stroke52 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.kit4-deposit .tech-spec-wireless-charging-copy12 .group4 .group3 .stroke72 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.kit4-deposit .tech-spec-wireless-charging-copy12 .group4 .group3 .stroke9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1px;
+  height              : 8px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .tech-spec-wireless-charging-copy12 .group4 .oval {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .tech-spec-wireless-charging-copy12 .group5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 11px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+}
+.kit4-deposit .tech-spec-wireless-charging-copy12 .group5 .stroke33 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 11px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.kit4-deposit .tech-spec-wireless-charging-copy12 .group5 .stroke53 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 5px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .tech-spec-wireless-charging-copy12 .stroke73 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 18px;
+  height              : 16px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .graphics-numbers1-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 463px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 255px;
+}
+.kit4-deposit .graphics-numbers1-copy .oval2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .graphics-numbers1-copy .a2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(130, 214, 57, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit4-deposit .graphics-numbers1-copy4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 357px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 255px;
+}
+.kit4-deposit .graphics-numbers1-copy4 .oval21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .graphics-numbers1-copy4 .a1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(130, 214, 57, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit4-deposit .graphics-numbers1-copy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 569px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 255px;
+}
+.kit4-deposit .graphics-numbers1-copy2 .oval22 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .graphics-numbers1-copy2 .a3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(130, 214, 57, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit4-deposit .graphics-numbers1-copy3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 675px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 255px;
+}
+.kit4-deposit .graphics-numbers1-copy3 .oval23 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .graphics-numbers1-copy3 .a4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(130, 214, 57, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit4-deposit .deposits-withdrawa {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 117px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 459px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 42.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 50.0px;
+}
+.kit4-deposit .for-digital-assets {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 176px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 581px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : center;
+  line-height         : 36.0px;
+}
+.kit4-deposit .nav-bar1-default {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .nav-bar1-default .rectangle {
+  background-color    : rgba(36, 40, 48, 1.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .nav-bar1-default .rectangle4-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 196px;
+  opacity             : 0.0;
+}
+.kit4-deposit .nav-bar1-default .wallets {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 204px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit4-deposit .nav-bar1-default .rectangle4-copy1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 346px;
+  opacity             : 0.0;
+}
+.kit4-deposit .nav-bar1-default .exchange {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 354px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit4-deposit .nav-bar1-default .rectangle4-copy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 496px;
+  opacity             : 0.0;
+}
+.kit4-deposit .nav-bar1-default .information-kit {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 504px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit4-deposit .nav-bar1-default .rectangle4-copy3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 646px;
+  opacity             : 0.0;
+}
+.kit4-deposit .nav-bar1-default .support {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 654px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit4-deposit .nav-bar1-default .tool-bar-search-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 12px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+}
+.kit4-deposit .nav-bar1-default .tool-bar-search-copy .path3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .nav-bar1-default .tool-bar-search-copy .path3-copy3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 2px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .nav-bar1-default .tool-bar-search-copy .path3-copy21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 2px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .nav-bar1-default .jdax-logo-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 27px;
+  width               : 110px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+}
+.kit4-deposit .nav-bar1-default .jdax-logo-copy .fill1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 20px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+}
+.kit4-deposit .nav-bar1-default .jdax-logo-copy .fill3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 19px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+}
+.kit4-deposit .nav-bar1-default .jdax-logo-copy .fill5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 19px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+}
+.kit4-deposit .nav-bar1-default .jdax-logo-copy .fill7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 19px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+}
+.kit4-deposit .nav-bar1-default .jdax-logo-copy .group6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .nav-bar1-default .jdax-logo-copy .group6 .fill11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.kit4-deposit .nav-bar1-default .jdax-logo-copy .group6 .fill2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.kit4-deposit .nav-bar1-default .jdax-logo-copy .group6 .fill31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 18px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .nav-bar1-default .jdax-logo-copy .group6 .fill6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.kit4-deposit .nav-bar1-default .rectangle4-copy31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 995px;
+  opacity             : 0.0;
+}
+.kit4-deposit .nav-bar1-default .btc-zar136599 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 995px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit4-deposit .nav-bar1-default .log-in {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 70px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1280px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit4-deposit .nav-bar1-default .sign-up {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1185px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit4-deposit .nav-bar1-default .rectangle9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 32px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1165px;
+  border-radius       : 16px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(100, 107, 120, 1.0);
+}
+.kit4-deposit .to-receive-digital-a {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1077px;
+  height              : auto;
+  width               : 504px;
+  position            : absolute;
+  margin              : 0;
+  left                : 300px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit4-deposit .you-can-copy-and-sen {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1246px;
+  height              : auto;
+  width               : 504px;
+  position            : absolute;
+  margin              : 0;
+  left                : 300px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit4-deposit .select-wallets-from1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 971px;
+  height              : auto;
+  width               : 504px;
+  position            : absolute;
+  margin              : 0;
+  left                : 300px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit4-deposit .select-your-preferre {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1049px;
+  height              : auto;
+  width               : 392px;
+  position            : absolute;
+  margin              : 0;
+  left                : 300px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit4-deposit .share-your-address {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1218px;
+  height              : auto;
+  width               : 392px;
+  position            : absolute;
+  margin              : 0;
+  left                : 300px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit4-deposit .go-to-your-wallet1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 943px;
+  height              : auto;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 300px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit4-deposit .graphics-numbers1-copy5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1049px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 255px;
+}
+.kit4-deposit .graphics-numbers1-copy5 .oval24 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .graphics-numbers1-copy5 .a21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(5, 192, 200, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit4-deposit .graphics-numbers1-copy6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 943px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 255px;
+}
+.kit4-deposit .graphics-numbers1-copy6 .oval25 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .graphics-numbers1-copy6 .a11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(5, 192, 200, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit4-deposit .graphics-numbers1-copy7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1218px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 255px;
+}
+.kit4-deposit .graphics-numbers1-copy7 .oval26 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .graphics-numbers1-copy7 .a31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(5, 192, 200, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit4-deposit .receiving-digital-cu {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 876px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 300px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.kit4-deposit .group21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 871px;
+  height              : 35px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 257px;
+}
+.kit4-deposit .group21 .group41 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.kit4-deposit .group21 .group41 .group31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 10px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+}
+.kit4-deposit .group21 .group41 .group31 .stroke11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1px;
+  height              : 5px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group21 .group41 .group31 .stroke34 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 5px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group21 .group41 .group31 .stroke54 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.kit4-deposit .group21 .group41 .group31 .stroke74 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.kit4-deposit .group21 .group41 .group31 .stroke91 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1px;
+  height              : 8px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group21 .group41 .oval1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .group21 .group11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 19px;
+  height              : 11px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+}
+.kit4-deposit .group21 .stroke75 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 19px;
+  height              : 16px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .graphics-x-grey {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 112px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1348px;
+}
+.kit4-deposit .graphics-x-grey .stroke13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .graphics-x-grey .stroke35 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .page-control4-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 797px;
+  height              : 7px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1036px;
+}
+.kit4-deposit .page-control4-copy .active {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .page-control4-copy .inactive {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.kit4-deposit .page-control4-copy .inactive1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.kit4-deposit .page-control4-copy .inactive-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+}
+.kit4-deposit .page-control3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1383px;
+  height              : 7px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1044px;
+}
+.kit4-deposit .page-control3 .active1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit4-deposit .page-control3 .inactive2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.kit4-deposit .page-control3 .inactive3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

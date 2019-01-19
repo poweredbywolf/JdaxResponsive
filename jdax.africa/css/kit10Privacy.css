@@ -1,0 +1,151 @@
+
+@font-face {
+  font-family: "SFCompactText-Regular";
+  src: url('../fonts/SFCompactText-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFProText-Regular";
+  src: url('../fonts/SF-Pro-Text-Regular.otf') format("opentype");
+}
+
+.kit10privacy {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 1940px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.kit10privacy .privacypolicy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 117px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 565px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 42.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 50.0px;
+}
+.kit10privacy .graphicsxgrey {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 112px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1348px;
+}
+.kit10privacy .graphicsxgrey .graphicsxgrey1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.kit10privacy .jdaxprivacypolicy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 240px;
+  height              : auto;
+  width               : 785px;
+  position            : absolute;
+  margin              : 0;
+  left                : 328px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

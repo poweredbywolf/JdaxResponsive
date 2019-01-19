@@ -1,0 +1,324 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.ln-navbar {
+	background: #242930;
+	-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out, height .2s ease-in-out;
+	-o-transition: background .5s ease-in-out, padding .5s ease-in-out, height .2s ease-in-out;
+	transition: background .5s ease-in-out, padding .5s ease-in-out, height .2s ease-in-out;
+}
+.ln-nav-collapse {
+	background: rgba(255,255,255,1);
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .24), 0 0 2px 0 rgba(0, 0, 0, .12);
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .24), 0 0 2px 0 rgba(0, 0, 0, .12);
+}
+.nav-bar1-default a:hover {
+	color: rgba(0, 255, 135, 1.00);
+}
+.ln-nav-collapse a:hover {
+/*	color: rgba(0,83,114,1.00);*/
+	
+	color: #009777;
+}
+.ln-nav-collapse a {
+	color: rgb(36, 41, 48);
+}
+.ln-navbar .sign-up1{
+	color: white;
+}
+.ln-nav-collapse .sign-up1 {
+	color: black;
+}
+.ln-nav-collapse .jdax-logo-copy1 #LogoType {
+	fill: rgb(36, 41, 48);
+}
+.ln-nav-collapse #LineMenu {
+	stroke: #000000;}
+
+@media screen and (max-width: 768px) {
+	.ln-navbar .navbar-nav {
+		display: inline-block;
+		float: right;
+	}
+}
+@media screen and (max-width: 768px) {
+	.ln-navbar .navbar-header {
+		display: inline-block;
+		margin-left: 0;
+	}
+	.ln-navbar .navbar-header .ln-menu {
+		margin-top: 0;
+	}
+}
+
+.nav-bar1-default {
+	top: 0px;
+	height: 44px;
+	width: 1440px;
+	position: fixed;
+	margin: auto;
+	left: 0;
+	right: 0;
+	z-index: 100;
+}
+.nav-bar1-default .rectangle4-copy1 {
+	background-color: rgba(255, 255, 255, 1.0);
+	top: 0px;
+	height: 44px;
+	width: 150px;
+	position: absolute;
+	margin: 0;
+	left: 196px;
+	opacity: 0.0;
+}
+.nav-bar1-default .wallets {
+	background-color: rgba(255, 255, 255, 0.0);
+	top: 14px;
+	height: auto;
+	width: 134px;
+	position: absolute;
+	margin: 0;
+	left: 204px;
+	font-family: "SFProText-Regular", Helvetica, Arial, serif;
+	font-size: 15.0px;
+	color: rgba(249, 249, 249, 1.0);
+	text-align: center;
+	line-height: 18.0px;
+}
+.nav-bar1-default .rectangle4-copy5 {
+	background-color: rgba(255, 255, 255, 0.0);
+	top: 0px;
+	height: 44px;
+	width: 150px;
+	position: absolute;
+	margin: 0;
+	left: 346px;
+	opacity: 0.0;
+}
+.nav-bar1-default .exchange {
+	background-color: rgba(255, 255, 255, 0.0);
+	top: 14px;
+	height: auto;
+	width: 134px;
+	position: absolute;
+	margin: 0;
+	left: 354px;
+	font-family: "SFProText-Regular", Helvetica, Arial, serif;
+	font-size: 15.0px;
+	color: rgba(249, 249, 249, 1.0);
+	text-align: center;
+	line-height: 18.0px;
+}
+.nav-bar1-default .rectangle4-copy6 {
+	background-color: rgba(255, 255, 255, 0.0);
+	top: 0px;
+	height: 44px;
+	width: 150px;
+	position: absolute;
+	margin: 0;
+	left: 496px;
+	opacity: 0.0;
+}
+.nav-bar1-default .information-kit3 {
+	background-color: rgba(255, 255, 255, 0.0);
+	top: 14px;
+	height: auto;
+	width: 134px;
+	position: absolute;
+	margin: 0;
+	left: 504px;
+	font-family: "SFProText-Regular", Helvetica, Arial, serif;
+	font-size: 15.0px;
+	color: rgba(249, 249, 249, 1.0);
+	text-align: center;
+	line-height: 18.0px;
+}
+.nav-bar1-default .rectangle4-copy7 {
+	background-color: rgba(255, 255, 255, 0.0);
+	top: 0px;
+	height: 44px;
+	width: 150px;
+	position: absolute;
+	margin: 0;
+	left: 646px;
+	opacity: 0.0;
+}
+.nav-bar1-default .support1 {
+	background-color: rgba(255, 255, 255, 0.0);
+	top: 14px;
+	height: auto;
+	width: 134px;
+	position: absolute;
+	margin: 0;
+	left: 654px;
+	font-family: "SFProText-Regular", Helvetica, Arial, serif;
+	font-size: 15.0px;
+	color: rgba(249, 249, 249, 1.0);
+	text-align: center;
+	line-height: 18.0px;
+}
+.nav-bar1-default .tool-bar-search-copy {
+	background-color: rgba(255, 255, 255, 0.0);
+	top: 16px;
+	height: 12px;
+	width: 16px;
+	position: absolute;
+	margin: 0;
+	left: 24px;
+}
+.nav-bar1-default .jdax-logo-copy1 {
+	background-color: rgba(255, 255, 255, 0.0);
+	top: 9px;
+	height: 27px;
+	width: 110px;
+	position: absolute;
+	margin: 0;
+	left: 70px;
+}
+.nav-bar1-default .jdax-logo-copy1 .fill13 {
+	background-color: rgba(255, 255, 255, 0.0);
+	top: 3px;
+	height: 20px;
+	width: 10px;
+	position: absolute;
+	margin: 0;
+	left: 35px;
+}
+.nav-bar1-default .jdax-logo-copy1 .fill31 {
+	background-color: rgba(255, 255, 255, 0.0);
+	top: 3px;
+	height: 19px;
+	width: 17px;
+	position: absolute;
+	margin: 0;
+	left: 52px;
+}
+.nav-bar1-default .jdax-logo-copy1 .fill5 {
+	background-color: rgba(255, 255, 255, 0.0);
+	top: 3px;
+	height: 19px;
+	width: 18px;
+	position: absolute;
+	margin: 0;
+	left: 73px;
+}
+.nav-bar1-default .jdax-logo-copy1 .fill7 {
+	background-color: rgba(255, 255, 255, 0.0);
+	top: 3px;
+	height: 19px;
+	width: 15px;
+	position: absolute;
+	margin: 0;
+	left: 95px;
+}
+.nav-bar1-default .jdax-logo-copy1 .group39 {
+	background-color: rgba(255, 255, 255, 0.0);
+	top: 0px;
+	height: 27px;
+	width: 30px;
+	position: absolute;
+	margin: 0;
+	left: 0px;
+}
+.nav-bar1-default .jdax-logo-copy1 .group39 .fill14 {
+	background-color: rgba(255, 255, 255, 0.0);
+	top: 4px;
+	height: 16px;
+	width: 12px;
+	position: absolute;
+	margin: 0;
+	left: 3px;
+}
+.nav-bar1-default .jdax-logo-copy1 .group39 .fill2 {
+	background-color: rgba(255, 255, 255, 0.0);
+	top: 6px;
+	height: 16px;
+	width: 12px;
+	position: absolute;
+	margin: 0;
+	left: 15px;
+}
+.nav-bar1-default .jdax-logo-copy1 .group39 .fill32 {
+	background-color: rgba(255, 255, 255, 0.0);
+	top: 9px;
+	height: 18px;
+	width: 15px;
+	position: absolute;
+	margin: 0;
+	left: 0px;
+}
+.nav-bar1-default .jdax-logo-copy1 .group39 .fill62 {
+	background-color: rgba(255, 255, 255, 0.0);
+	top: 0px;
+	height: 17px;
+	width: 15px;
+	position: absolute;
+	margin: 0;
+	left: 15px;
+}
+.nav-bar1-default .rectangle4-copy31 {
+	background-color: rgba(255, 255, 255, 0.0);
+	top: 0px;
+	height: 44px;
+	width: 134px;
+	position: absolute;
+	margin: 0;
+	left: 995px;
+	opacity: 0.0;
+}
+.nav-bar1-default .btc-zar136599 {
+	background-color: rgba(255, 255, 255, 0.0);
+	top: 13px;
+	height: auto;
+	width: 134px;
+	position: absolute;
+	margin: 0;
+	left: 995px;
+	font-family: "SFProText-Regular", Helvetica, Arial, serif;
+	font-size: 15.0px;
+	color: rgba(249, 249, 249, 1.0);
+	text-align: center;
+	line-height: 18.0px;
+}
+.nav-bar1-default .log-in {
+	background-color: rgba(255, 255, 255, 0.0);
+	top: 13px;
+	height: auto;
+	width: 70px;
+	position: absolute;
+	margin: 0;
+	left: 1280px;
+	font-family: "SFProText-Regular", Helvetica, Arial, serif;
+	font-size: 15.0px;
+	color: rgba(249, 249, 249, 1.0);
+	text-align: center;
+	line-height: 18.0px;
+}
+.nav-bar1-default .sign-up1 {
+	background-color: rgba(255, 255, 255, 0.0);
+	top: 13px;
+	height: auto;
+	width: 60px;
+	position: absolute;
+	margin: 0;
+	left: 1185px;
+	font-family: "SFProText-Regular", Helvetica, Arial, serif;
+	font-size: 15.0px;
+/*	color: rgba(249, 249, 249, 1.0);*/
+	text-align: center;
+	line-height: 18.0px;
+}
+.nav-bar1-default .rectangle9 {
+	background-color: rgba(255, 255, 255, 0.0);
+	top: 6px;
+	height: 32px;
+	width: 100px;
+	position: absolute;
+	margin: 0;
+	left: 1165px;
+	border-radius: 16px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgba(100, 107, 120, 1.0);
+}

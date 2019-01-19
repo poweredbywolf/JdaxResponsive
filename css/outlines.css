@@ -1,0 +1,42 @@
+
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+    background-color: black;
+}
+img {
+    border: 1px solid red;
+}
+div {
+    border: 1px solid black;
+}
+ul {
+    border: 1px solid white;
+}
+li {
+    border: 1px solid hotpink;
+}
+.row {
+    border: 2px solid red;
+}
+.col {
+    border: 1px solid #17FF00;
+    margin: 0;
+    padding: 0;
+}
+.row {
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, p {
+    border: 1px solid blue;
+}
+span {
+    border: 1px solid blue;
+}
+.card {
+    border: 1px solid green;
+}
+

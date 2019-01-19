@@ -1,0 +1,1692 @@
+@font-face {
+    font-family: "SFCompactText-Bold";
+    src: url('../fonts/SFCompactText-Bold.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "SFProText-Regular";
+    src: url('../fonts/SF-Pro-Text-Regular.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "SFCompactText-Regular";
+    src: url('../fonts/SFCompactText-Regular.otf') format("opentype");
+}
+
+
+html {
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+.insta {
+    width: 100%;
+    min-width: 1440px;
+    /*    height: ;*/
+    min-height: 1693px;
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+    background-color: rgba(252, 252, 252, 1.0);
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    -webkit-text-size-adjust: none;
+}
+
+.insta .footer {
+    top: 1469px;
+    height: 224px;
+    width: 1440px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .footer .rectangle4 {
+    background-color: rgba(36, 40, 48, 1.0);
+    top: 0px;
+    height: 224px;
+    width: 1440px;
+    position: absolute;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .footer .info {
+    width: 960px;
+    height: 100%;
+    pointer-events: auto;
+    position: relative;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .footer .info-layout-container {
+    pointer-events: none;
+    flex-direction: column;
+    top: 56px;
+    align-items: center;
+    height: calc(0.00% + 95px);
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    display: flex;
+    left: 0;
+}
+
+.insta .footer .info .whataredigitalass {
+    top: 0px;
+    height: auto;
+    width: 288px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFCompactText-Bold", Helvetica, Arial, serif;
+    font-size: 16.0px;
+    color: rgba(100, 107, 120, 1.0);
+    text-align: left;
+    letter-spacing: 0.36px;
+    line-height: 19.0px;
+}
+
+.insta .footer .info .digitalassetsisa {
+    top: 35px;
+    height: auto;
+    width: 288px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFProText-Regular", Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(181, 189, 202, 1.0);
+    text-align: left;
+    letter-spacing: -0.34px;
+    line-height: 20.0px;
+}
+
+.insta .footer .info .supporteddigitalas {
+    top: 0px;
+    height: auto;
+    width: 288px;
+    position: absolute;
+    margin: 0;
+    left: 337px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFCompactText-Bold", Helvetica, Arial, serif;
+    font-size: 16.0px;
+    color: rgba(100, 107, 120, 1.0);
+    text-align: left;
+    letter-spacing: 0.36px;
+    line-height: 19.0px;
+}
+
+.insta .footer .info .jdaxexchangecurren {
+    top: 35px;
+    height: auto;
+    width: 288px;
+    position: absolute;
+    margin: 0;
+    left: 337px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFProText-Regular", Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(181, 189, 202, 1.0);
+    text-align: left;
+    letter-spacing: -0.34px;
+    line-height: 20.0px;
+}
+
+.insta .footer .info .whatisawallet {
+    top: 0px;
+    height: auto;
+    width: 288px;
+    position: absolute;
+    margin: 0;
+    left: 672px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFCompactText-Bold", Helvetica, Arial, serif;
+    font-size: 16.0px;
+    color: rgba(100, 107, 120, 1.0);
+    text-align: left;
+    letter-spacing: 0.36px;
+    line-height: 19.0px;
+}
+
+.insta .footer .info .thisiswhereyoubu {
+    top: 35px;
+    height: auto;
+    width: 288px;
+    position: absolute;
+    margin: 0;
+    left: 672px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFProText-Regular", Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(181, 189, 202, 1.0);
+    text-align: left;
+    letter-spacing: -0.34px;
+    line-height: 20.0px;
+}
+
+.insta .section {
+    width: 1004px;
+    height: 100%;
+    pointer-events: auto;
+    position: relative;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section-layout-container {
+    pointer-events: none;
+    flex-direction: column;
+    top: 285px;
+    align-items: center;
+    height: 1111px;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    display: flex;
+    left: 0;
+}
+
+.insta .section .sell {
+    top: 587px;
+    height: 524px;
+    width: 1004px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .slides {
+    top: 50px;
+    height: 468px;
+    width: 256px;
+    position: absolute;
+    margin: 0;
+    left: 680px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+
+
+.insta .section .sell .steps {
+    top: 72px;
+    height: 409px;
+    width: 549px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .steps .step4 {
+    top: 339px;
+    height: 70px;
+    width: 549px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .steps .step4 .makesureallthede {
+    top: 28px;
+    height: auto;
+    width: 504px;
+    position: absolute;
+    margin: 0;
+    left: 45px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFProText-Regular", Helvetica, Arial, serif;
+    font-size: 16.0px;
+    color: rgba(153, 153, 153, 1.0);
+    text-align: left;
+    line-height: 21.0px;
+}
+
+.insta .section .sell .steps .step4 .instantsell {
+    top: 0px;
+    height: auto;
+    width: 196px;
+    position: absolute;
+    margin: 0;
+    left: 45px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFCompactText-Bold", Helvetica, Arial, serif;
+    font-size: 16.0px;
+    color: rgba(46, 46, 46, 1.0);
+    text-align: left;
+    letter-spacing: 0.36px;
+    line-height: 19.0px;
+}
+
+.insta .section .sell .steps .step4 .graphicsnumbers1copy8 {
+    top: 0px;
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .steps .step4 .graphicsnumbers1copy8 .oval2 {
+    top: 0px;
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .steps .step4 .graphicsnumbers1copy8 .a4 {
+    top: 6px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 11px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size: 20.0px;
+    color: rgba(5, 192, 200, 1.0);
+    text-align: center;
+    line-height: 24.0px;
+}
+
+.insta .section .sell .steps .step3 {
+    top: 233px;
+    height: 70px;
+    width: 549px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .steps .step3 .selectyourpreferre {
+    top: 28px;
+    height: auto;
+    width: 504px;
+    position: absolute;
+    margin: 0;
+    left: 45px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFProText-Regular", Helvetica, Arial, serif;
+    font-size: 16.0px;
+    color: rgba(153, 153, 153, 1.0);
+    text-align: left;
+    line-height: 21.0px;
+}
+
+.insta .section .sell .steps .step3 .graphicsnumbers1copy7 {
+    top: 0px;
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .steps .step3 .graphicsnumbers1copy7 .oval2 {
+    top: 0px;
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .steps .step3 .graphicsnumbers1copy7 .a3 {
+    top: 6px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 11px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size: 20.0px;
+    color: rgba(5, 192, 200, 1.0);
+    text-align: center;
+    line-height: 24.0px;
+}
+
+.insta .section .sell .steps .step3 .selectthecurrency {
+    top: 0px;
+    height: auto;
+    width: 196px;
+    position: absolute;
+    margin: 0;
+    left: 45px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFCompactText-Bold", Helvetica, Arial, serif;
+    font-size: 16.0px;
+    color: rgba(46, 46, 46, 1.0);
+    text-align: left;
+    letter-spacing: 0.36px;
+    line-height: 19.0px;
+}
+
+.insta .section .sell .steps .step2 {
+    top: 106px;
+    height: 91px;
+    width: 549px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .steps .step2 .entertheamountwan {
+    top: 28px;
+    height: auto;
+    width: 504px;
+    position: absolute;
+    margin: 0;
+    left: 45px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFProText-Regular", Helvetica, Arial, serif;
+    font-size: 16.0px;
+    color: rgba(153, 153, 153, 1.0);
+    text-align: left;
+    line-height: 21.0px;
+}
+
+.insta .section .sell .steps .step2 .enteramount {
+    top: 0px;
+    height: auto;
+    width: 196px;
+    position: absolute;
+    margin: 0;
+    left: 45px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFCompactText-Bold", Helvetica, Arial, serif;
+    font-size: 16.0px;
+    color: rgba(46, 46, 46, 1.0);
+    text-align: left;
+    letter-spacing: 0.36px;
+    line-height: 19.0px;
+}
+
+.insta .section .sell .steps .step2 .graphicsnumbers1copy5 {
+    top: 0px;
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .steps .step2 .graphicsnumbers1copy5 .oval2 {
+    top: 0px;
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .steps .step2 .graphicsnumbers1copy5 .a2 {
+    top: 6px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 11px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size: 20.0px;
+    color: rgba(5, 192, 200, 1.0);
+    text-align: center;
+    line-height: 24.0px;
+}
+
+.insta .section .sell .steps .step1 {
+    top: 0px;
+    height: 70px;
+    width: 549px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .steps .step1 .selectwalletsfrom {
+    top: 28px;
+    height: auto;
+    width: 504px;
+    position: absolute;
+    margin: 0;
+    left: 45px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFProText-Regular", Helvetica, Arial, serif;
+    font-size: 16.0px;
+    color: rgba(153, 153, 153, 1.0);
+    text-align: left;
+    line-height: 21.0px;
+}
+
+.insta .section .sell .steps .step1 .gotoyourwallet {
+    top: 0px;
+    height: auto;
+    width: 196px;
+    position: absolute;
+    margin: 0;
+    left: 45px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFCompactText-Bold", Helvetica, Arial, serif;
+    font-size: 16.0px;
+    color: rgba(46, 46, 46, 1.0);
+    text-align: left;
+    letter-spacing: 0.36px;
+    line-height: 19.0px;
+}
+
+.insta .section .sell .steps .step1 .graphicsnumbers1copy6 {
+    top: 0px;
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .steps .step1 .graphicsnumbers1copy6 .oval2 {
+    top: 0px;
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .steps .step1 .graphicsnumbers1copy6 .a1 {
+    top: 6px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 12px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size: 20.0px;
+    color: rgba(5, 192, 200, 1.0);
+    text-align: center;
+    line-height: 24.0px;
+}
+
+.insta .section .sell .selling {
+    top: 0px;
+    height: 36px;
+    width: 326px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .selling .sellingdigitalcurr {
+    top: 5px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 45px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size: 22.0px;
+    color: rgba(46, 46, 46, 1.0);
+    text-align: left;
+    line-height: 26.0px;
+}
+
+.insta .section .sell .selling .techspecwirelesschargingcopy7 {
+    top: 7px;
+    height: 22px;
+    width: 35px;
+    position: absolute;
+    margin: 0;
+    left: 1px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .selling .techspecwirelesschargingcopy7 .group {
+    top: 7px;
+    height: 8px;
+    width: 35px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .selling .techspecwirelesschargingcopy7 .group .line {
+    top: 3px;
+    height: 2px;
+    width: 7px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .selling .techspecwirelesschargingcopy7 .group .linecopy {
+    top: 3px;
+    height: 2px;
+    width: 9px;
+    position: absolute;
+    margin: 0;
+    left: 25px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .selling .techspecwirelesschargingcopy7 .group .stroke9 {
+    top: 0px;
+    height: 8px;
+    width: 5px;
+    position: absolute;
+    margin: 0;
+    left: 30px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .selling .techspecwirelesschargingcopy7 .group4 {
+    top: 0px;
+    height: 22px;
+    width: 22px;
+    position: absolute;
+    margin: 0;
+    left: 5px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .selling .techspecwirelesschargingcopy7 .group4 .group3 {
+    top: 5px;
+    height: 12px;
+    width: 9px;
+    position: absolute;
+    margin: 0;
+    left: 7px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .selling .techspecwirelesschargingcopy7 .group4 .group3 .stroke1 {
+    top: 1px;
+    height: 6px;
+    width: 8px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .selling .techspecwirelesschargingcopy7 .group4 .group3 .stroke3 {
+    top: 5px;
+    height: 6px;
+    width: 9px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .selling .techspecwirelesschargingcopy7 .group4 .group3 .stroke5 {
+    top: 0px;
+    height: 3px;
+    width: 1px;
+    position: absolute;
+    margin: 0;
+    left: 3px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .selling .techspecwirelesschargingcopy7 .group4 .group3 .stroke7 {
+    top: 9px;
+    height: 3px;
+    width: 1px;
+    position: absolute;
+    margin: 0;
+    left: 3px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .selling .techspecwirelesschargingcopy7 .group4 .group3 .stroke9 {
+    top: 1px;
+    height: 10px;
+    width: 1px;
+    position: absolute;
+    margin: 0;
+    left: 1px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .sell .selling .techspecwirelesschargingcopy7 .group4 .oval {
+    top: 0px;
+    height: 22px;
+    width: 22px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy {
+    top: 0px;
+    height: 524px;
+    width: 1004px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .slides {
+    top: 50px;
+    height: 468px;
+    width: 256px;
+    position: absolute;
+    margin: 0;
+    left: 680px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .steps {
+    top: 72px;
+    height: 409px;
+    width: 549px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .steps .step4 {
+    top: 339px;
+    height: 70px;
+    width: 549px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .steps .step4 .makesureallthede {
+    top: 28px;
+    height: auto;
+    width: 504px;
+    position: absolute;
+    margin: 0;
+    left: 45px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFProText-Regular", Helvetica, Arial, serif;
+    font-size: 16.0px;
+    color: rgba(153, 153, 153, 1.0);
+    text-align: left;
+    line-height: 21.0px;
+}
+
+.insta .section .buy .steps .step4 .instantbuy {
+    top: 0px;
+    height: auto;
+    width: 196px;
+    position: absolute;
+    margin: 0;
+    left: 45px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFCompactText-Bold", Helvetica, Arial, serif;
+    font-size: 16.0px;
+    color: rgba(46, 46, 46, 1.0);
+    text-align: left;
+    letter-spacing: 0.36px;
+    line-height: 19.0px;
+}
+
+.insta .section .buy .steps .step4 .graphicsnumbers1copy3 {
+    top: 0px;
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .steps .step4 .graphicsnumbers1copy3 .oval2 {
+    top: 0px;
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .steps .step4 .graphicsnumbers1copy3 .a4 {
+    top: 6px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 11px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size: 20.0px;
+    color: rgba(130, 214, 57, 1.0);
+    text-align: center;
+    line-height: 24.0px;
+}
+
+.insta .section .buy .steps .step3 {
+    top: 233px;
+    height: 70px;
+    width: 549px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .steps .step3 .selectyourpreferre {
+    top: 28px;
+    height: auto;
+    width: 504px;
+    position: absolute;
+    margin: 0;
+    left: 45px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFProText-Regular", Helvetica, Arial, serif;
+    font-size: 16.0px;
+    color: rgba(153, 153, 153, 1.0);
+    text-align: left;
+    line-height: 21.0px;
+}
+
+.insta .section .buy .steps .step3 .selectthecurrency {
+    top: 0px;
+    height: auto;
+    width: 196px;
+    position: absolute;
+    margin: 0;
+    left: 45px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFCompactText-Bold", Helvetica, Arial, serif;
+    font-size: 16.0px;
+    color: rgba(46, 46, 46, 1.0);
+    text-align: left;
+    letter-spacing: 0.36px;
+    line-height: 19.0px;
+}
+
+.insta .section .buy .steps .step3 .graphicsnumbers1copy2 {
+    top: 0px;
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .steps .step3 .graphicsnumbers1copy2 .oval2 {
+    top: 0px;
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .steps .step3 .graphicsnumbers1copy2 .a3 {
+    top: 6px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 11px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size: 20.0px;
+    color: rgba(130, 214, 57, 1.0);
+    text-align: center;
+    line-height: 24.0px;
+}
+
+.insta .section .buy .steps .step2 {
+    top: 106px;
+    height: 91px;
+    width: 549px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .steps .step2 .entertheamountwan {
+    top: 28px;
+    height: auto;
+    width: 504px;
+    position: absolute;
+    margin: 0;
+    left: 45px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFProText-Regular", Helvetica, Arial, serif;
+    font-size: 16.0px;
+    color: rgba(153, 153, 153, 1.0);
+    text-align: left;
+    line-height: 21.0px;
+}
+
+.insta .section .buy .steps .step2 .enteramount {
+    top: 0px;
+    height: auto;
+    width: 196px;
+    position: absolute;
+    margin: 0;
+    left: 45px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFCompactText-Bold", Helvetica, Arial, serif;
+    font-size: 16.0px;
+    color: rgba(46, 46, 46, 1.0);
+    text-align: left;
+    letter-spacing: 0.36px;
+    line-height: 19.0px;
+}
+
+.insta .section .buy .steps .step2 .graphicsnumbers1copy {
+    top: 0px;
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .steps .step2 .graphicsnumbers1copy .oval2 {
+    top: 0px;
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .steps .step2 .graphicsnumbers1copy .a2 {
+    top: 6px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 11px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size: 20.0px;
+    color: rgba(130, 214, 57, 1.0);
+    text-align: center;
+    line-height: 24.0px;
+}
+
+.insta .section .buy .steps .step1 {
+
+    top: 0px;
+    height: 70px;
+    width: 549px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .steps .step1 .selectwalletsfrom {
+
+    top: 28px;
+    height: auto;
+    width: 504px;
+    position: absolute;
+    margin: 0;
+    left: 45px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFProText-Regular", Helvetica, Arial, serif;
+    font-size: 16.0px;
+    color: rgba(153, 153, 153, 1.0);
+    text-align: left;
+    line-height: 21.0px;
+}
+
+.insta .section .buy .steps .step1 .gotoyourwallet {
+    top: 0px;
+    height: auto;
+    width: 196px;
+    position: absolute;
+    margin: 0;
+    left: 45px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFCompactText-Bold", Helvetica, Arial, serif;
+    font-size: 16.0px;
+    color: rgba(46, 46, 46, 1.0);
+    text-align: left;
+    letter-spacing: 0.36px;
+    line-height: 19.0px;
+}
+
+.insta .section .buy .steps .step1 .graphicsnumbers1copy4 {
+    top: 0px;
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .steps .step1 .graphicsnumbers1copy4 .oval2 {
+    top: 0px;
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .steps .step1 .graphicsnumbers1copy4 .a1 {
+    top: 6px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 12px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size: 20.0px;
+    color: rgba(130, 214, 57, 1.0);
+    text-align: center;
+    line-height: 24.0px;
+}
+
+.insta .section .buy .buying {
+    top: 0px;
+    height: 36px;
+    width: 320px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .buying .buyingdigitalcurre {
+    top: 5px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 45px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size: 22.0px;
+    color: rgba(46, 46, 46, 1.0);
+    text-align: left;
+    line-height: 26.0px;
+}
+
+.insta .section .buy .buying .techspecwirelesschargingcopy7 {
+    top: 7px;
+    height: 22px;
+    width: 35px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .buying .techspecwirelesschargingcopy7 .group {
+    top: 7px;
+    height: 8px;
+    width: 35px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .buying .techspecwirelesschargingcopy7 .group .line {
+    top: 3px;
+    height: 2px;
+    width: 7px;
+    position: absolute;
+    margin: 0;
+    left: 28px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .buying .techspecwirelesschargingcopy7 .group .linecopy {
+    top: 3px;
+    height: 2px;
+    width: 9px;
+    position: absolute;
+    margin: 0;
+    left: 1px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .buying .techspecwirelesschargingcopy7 .group .stroke9 {
+    top: 0px;
+    height: 8px;
+    width: 5px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .buying .techspecwirelesschargingcopy7 .group4 {
+    top: 0px;
+    height: 22px;
+    width: 22px;
+    position: absolute;
+    margin: 0;
+    left: 8px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .buying .techspecwirelesschargingcopy7 .group4 .group3 {
+    top: 5px;
+    height: 12px;
+    width: 9px;
+    position: absolute;
+    margin: 0;
+    left: 7px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .buying .techspecwirelesschargingcopy7 .group4 .group3 .stroke1 {
+    top: 1px;
+    height: 6px;
+    width: 8px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .buying .techspecwirelesschargingcopy7 .group4 .group3 .stroke3 {
+    top: 5px;
+    height: 6px;
+    width: 9px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .buying .techspecwirelesschargingcopy7 .group4 .group3 .stroke5 {
+    top: 0px;
+    height: 3px;
+    width: 1px;
+    position: absolute;
+    margin: 0;
+    left: 3px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .buying .techspecwirelesschargingcopy7 .group4 .group3 .stroke7 {
+    top: 9px;
+    height: 3px;
+    width: 1px;
+    position: absolute;
+    margin: 0;
+    left: 3px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .buying .techspecwirelesschargingcopy7 .group4 .group3 .stroke9 {
+    top: 1px;
+    height: 10px;
+    width: 1px;
+    position: absolute;
+    margin: 0;
+    left: 1px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .section .buy .buying .techspecwirelesschargingcopy7 .group4 .oval {
+    top: 0px;
+    height: 22px;
+    width: 22px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .header {
+    width: 379px;
+    height: 100%;
+    pointer-events: auto;
+    position: relative;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.insta .header-layout-container {
+    pointer-events: none;
+    flex-direction: column;
+    top: 117px;
+    align-items: center;
+    height: 95px;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    display: flex;
+    left: 0;
+}
+
+.insta .header .instantbuysell {
+    top: 0px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: -1px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size: 42.0px;
+    color: rgba(46, 46, 46, 1.0);
+    text-align: center;
+    line-height: 50.0px;
+}
+
+.insta .header .fordigitalassets {
+    top: 59px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 50px;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    font-family: "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size: 30.0px;
+    color: rgba(102, 102, 102, 1.0);
+    text-align: center;
+    line-height: 36.0px;
+}
+
+/* .anima-animate-appear prefix for appear animations */
+
+.anima-animate-appear {
+    opacity: 0;
+    display: block;
+    -webkit-animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+    -moz-animation: anima-reveal 0.3s ease-in 1 normal forwards;
+    -o-animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+    animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+
+.anima-animate-disappear {
+    opacity: 1;
+    display: block;
+    -webkit-animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+    -moz-animation: anima-reveal 0.3s ease-in 1 normal forwards;
+    -o-animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+    animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+
+.anima-animate-nodelay {
+    -webkit-animation-delay: 0;
+    -moz-animation-delay: 0;
+    -o-animation-delay: 0;
+    animation-delay: 0;
+}
+
+@-webkit-keyframes anima-reveal {
+    0% {
+        opacity: 0;
+    }
+
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes anima-reveal {
+    0% {
+        opacity: 0;
+    }
+
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes anima-reveal {
+    0% {
+        opacity: 0;
+    }
+
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes anima-reveal {
+    0% {
+        opacity: 0;
+    }
+
+
+    100% {
+        opacity: 1;
+    }
+}

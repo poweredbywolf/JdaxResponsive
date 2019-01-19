@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="732px" viewBox="0 0 1440 732" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Graphics</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.900000036">
+        <g transform="translate(0.000000, -826.000000)" id="S3_HowItWorks">
+            <g transform="translate(0.000000, 826.000000)">
+                <g id="Graphics">
+                    <polygon id="Fill-3-Copy-2" fill="#FAFAFA" transform="translate(1124.500000, 182.000000) scale(1, -1) translate(-1124.500000, -182.000000) " points="1440 0 809 364 1440 364"></polygon>
+                    <polygon id="Fill-3" fill="#FCFCFC" points="0 1.13686838e-13 0 732 1270 1.13686838e-13"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

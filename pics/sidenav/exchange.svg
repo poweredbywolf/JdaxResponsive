@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu/Exchange">
+            <g id="Group-2">
+                <rect id="Rectangle-5" x="0" y="0" width="24" height="24"></rect>
+                <g id="Group" transform="translate(2.000000, 4.000000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline id="Stroke-2" points="1.3567 8.5435 7.2647 2.6355 11.7677 7.1395 18.6447 0.2625"></polyline>
+                    <polyline id="Stroke-3" points="14.3828 0.2622 18.6438 0.2622 18.6438 4.5242"></polyline>
+                    <polygon id="Stroke-4" points="15.845 15.6769 18.144 15.6769 18.144 7.3639 15.845 7.3639"></polygon>
+                    <polygon id="Stroke-5" points="11.182 15.6769 13.481 15.6769 13.481 10.3189 11.182 10.3189"></polygon>
+                    <polygon id="Stroke-6" points="6.52 15.6769 8.819 15.6769 8.819 8.0049 6.52 8.0049"></polygon>
+                    <polygon id="Stroke-7" points="1.857 15.6769 4.156 15.6769 4.156 10.3189 1.857 10.3189"></polygon>
+                    <path d="M0.0251,15.6773 L19.9761,15.6773" id="Stroke-8"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

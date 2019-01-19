@@ -1,0 +1,686 @@
+
+@font-face {
+  font-family: "SFCompactText-Regular";
+  src: url('../fonts/SFCompactText-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFProText-Regular";
+  src: url('../fonts/SF-Pro-Text-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactText-Bold";
+  src: url('../fonts/SFCompactText-Bold.otf') format("opentype");
+}
+
+.kit1signup {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 915px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.kit1signup .maskcopy10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 290px;
+  height              : 374px;
+  width               : 269px;
+  position            : absolute;
+  margin              : 0;
+  left                : 847px;
+}
+.kit1signup .signup {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 117px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 642px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 42.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 50.0px;
+}
+.kit1signup .graphicsxgrey {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 112px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1348px;
+}
+.kit1signup .graphicsxgrey .stroke1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit1signup .graphicsxgrey .stroke3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit1signup .createajdaxaccoun {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 203px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 560px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.36px;
+  line-height         : 26.0px;
+}
+.kit1signup .graphicsxgrey1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 112px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1348px;
+}
+.kit1signup .graphicsxgrey1 .stroke11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit1signup .graphicsxgrey1 .stroke31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit1signup .group4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 463px;
+  height              : 70px;
+  width               : 549px;
+  position            : absolute;
+  margin              : 0;
+  left                : 255px;
+}
+.kit1signup .group4 .onceyouhavesigned {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : auto;
+  width               : 504px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit1signup .group4 .confirmemail {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit1signup .group4 .graphicsnumbers1copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit1signup .group4 .graphicsnumbers1copy .oval2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit1signup .group4 .graphicsnumbers1copy .a2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(130, 214, 57, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit1signup .group2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 357px;
+  height              : 49px;
+  width               : 549px;
+  position            : absolute;
+  margin              : 0;
+  left                : 255px;
+}
+.kit1signup .group2 .tosetupajdaxacc {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : auto;
+  width               : 504px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit1signup .group2 .signup1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit1signup .group2 .graphicsnumbers1copy4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit1signup .group2 .graphicsnumbers1copy4 .oval21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit1signup .group2 .graphicsnumbers1copy4 .a1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(130, 214, 57, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit1signup .group5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 590px;
+  height              : 49px;
+  width               : 549px;
+  position            : absolute;
+  margin              : 0;
+  left                : 255px;
+}
+.kit1signup .group5 .whenyouremailhas {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : auto;
+  width               : 504px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit1signup .group5 .login {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit1signup .group5 .graphicsnumbers1copy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit1signup .group5 .graphicsnumbers1copy2 .oval22 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit1signup .group5 .graphicsnumbers1copy2 .a3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(130, 214, 57, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit1signup .makeanewaccount {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 290px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 300px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.kit1signup .stroke2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 291px;
+  height              : 20px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 268px;
+}
+.kit1signup .graphicsnavforwardgreycopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 443px;
+  height              : 40px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1123px;
+}
+.kit1signup .graphicsnavforwardgreycopy .path3copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 25px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.kit1signup .pagecontrol4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 683px;
+  height              : 7px;
+  width               : 49px;
+  position            : absolute;
+  margin              : 0;
+  left                : 957px;
+}
+.kit1signup .pagecontrol4 .active {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit1signup .pagecontrol4 .inactive {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+}
+.kit1signup .pagecontrol4 .inactive1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+}
+.kit1signup .group {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 570px;
+  height              : 52px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 881px;
+  opacity             : 0.73;
+}
+.kit1signup .group .rectangle3copy5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 52px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit1signup .group .createaccount {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 18px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.0px;
+  line-height         : 16.0px;
+}
+.kit1signup .group3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 385px;
+  height              : 63px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 881px;
+}
+.kit1signup .group3 .emailaddress {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 14.0px;
+}
+.kit1signup .group3 .rectangle3copy18 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 23px;
+  height              : 40px;
+  width               : 205px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(236, 236, 236, 1.0);
+}
+.kit1signup .group3 .johnjdaxcoza {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 33px;
+  height              : auto;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.kit1signup .group6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 473px;
+  height              : 63px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 881px;
+}
+.kit1signup .group6 .password {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 14.0px;
+}
+.kit1signup .group6 .rectangle3copy181 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 23px;
+  height              : 40px;
+  width               : 205px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(236, 236, 236, 1.0);
+}
+.kit1signup .group6 .enteryourpassword {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 33px;
+  height              : auto;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.kit1signup .rectangle13copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 350px;
+  height              : 1px;
+  width               : 203px;
+  position            : absolute;
+  margin              : 0;
+  left                : 881px;
+}
+.kit1signup .group12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 316px;
+  height              : 24px;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 920px;
+}
+.kit1signup .group12 .group1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit1signup .group12 .group1 .oval7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit1signup .group12 .group1 .page1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 10px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit1signup .group12 .signup2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="198px" viewBox="0 0 1440 198" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 3 Copy 2 + Fill 3 Copy Mask</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(0.000000, -2511.000000)" id="S6_Mail">
+            <g transform="translate(0.000000, 2511.000000)">
+                <g id="Group-17">
+                    <g id="Fill-3-Copy-2-+-Fill-3-Copy-Mask">
+                        <polygon id="Mask" fill="#0D979E" points="1.15463195e-14 0 1440 0 1440 198 1.15463195e-14 198"></polygon>
+                        <polygon id="Fill-3-Copy-2" fill-opacity="0.15" fill="#FFFFFF" transform="translate(611.500000, 99.000000) scale(-1, 1) translate(-611.500000, -99.000000) " points="1223 0 425 0 -1.80744308e-12 198 1223 198"></polygon>
+                        <polygon id="Fill-3-Copy" fill-opacity="0.2" fill="#05C0C9" points="1.15463195e-14 3.77198273e-14 1.15463195e-14 198 883 198 1305 6.31088724e-30"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
