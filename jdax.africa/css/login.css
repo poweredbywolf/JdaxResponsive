@@ -1,0 +1,688 @@
+
+@font-face {
+  font-family: "SFProText-Regular";
+  src: url('../fonts/SF-Pro-Text-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactText-Bold";
+  src: url('../fonts/SFCompactText-Bold.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactDisplay-Regular";
+  src: url('../fonts/SFCompactDisplay-Regular.otf') format("opentype");
+}
+
+.login {
+  width               : 100%;
+  min-width           : 1440px;
+  min-height          : 810px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(249, 249, 249, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.login .navbar1default {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.login .navbar1default .rectangle {
+  background-color    : rgba(36, 40, 48, 1.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.login .navbar1default .rectangle4copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 196px;
+  opacity             : 0.0;
+}
+.login .navbar1default .wallets {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 204px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.login .navbar1default .rectangle4copy1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 346px;
+  opacity             : 0.0;
+}
+.login .navbar1default .exchange {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 354px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.login .navbar1default .rectangle4copy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 496px;
+  opacity             : 0.0;
+}
+.login .navbar1default .informationkit {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 504px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.login .navbar1default .rectangle4copy3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 646px;
+  opacity             : 0.0;
+}
+.login .navbar1default .support {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 654px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.login .navbar1default .toolbarsearchcopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 12px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+}
+.login .navbar1default .toolbarsearchcopy .path3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.login .navbar1default .toolbarsearchcopy .path3copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 2px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.login .navbar1default .toolbarsearchcopy .path3copy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 2px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.login .navbar1default .jdaxlogocopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 27px;
+  width               : 110px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+}
+.login .navbar1default .jdaxlogocopy .fill1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 20px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+}
+.login .navbar1default .jdaxlogocopy .fill3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 19px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+}
+.login .navbar1default .jdaxlogocopy .fill5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 19px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+}
+.login .navbar1default .jdaxlogocopy .fill7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 19px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+}
+.login .navbar1default .jdaxlogocopy .group {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.login .navbar1default .jdaxlogocopy .group .fill11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.login .navbar1default .jdaxlogocopy .group .fill2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.login .navbar1default .jdaxlogocopy .group .fill31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 18px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.login .navbar1default .jdaxlogocopy .group .fill6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.login .navbar1default .rectangle4copy31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 995px;
+  opacity             : 0.0;
+}
+.login .navbar1default .btczar136599 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 995px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.login .navbar1default .login1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 70px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1280px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.login .navbar1default .signup {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1185px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.login .navbar1default .rectangle9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 32px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1165px;
+  border-radius       : 16px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(100, 107, 120, 1.0);
+}
+.login .group4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 112px;
+  height              : 570px;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 578px;
+}
+.login .group4 .group5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 188px;
+  height              : 382px;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.login .group4 .group5 .forgotpassword {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 158px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(5, 192, 200, 1.0);
+  text-align          : right;
+  line-height         : 16.0px;
+}
+.login .group4 .group5 .donthaveanaccoun {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 362px;
+  height              : auto;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.34px;
+  line-height         : 20.0px;
+}
+.login .group4 .group5 .havingtroubleacces {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 273px;
+  height              : auto;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.login .group4 .group5 .rectangle3copy5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 212px;
+  height              : 52px;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.login .group4 .group5 .login2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 230px;
+  height              : auto;
+  width               : 137px;
+  position            : absolute;
+  margin              : 0;
+  left                : 74px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.0px;
+  line-height         : 16.0px;
+}
+.login .group4 .group5 .emailaddress {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 14.0px;
+}
+.login .group4 .group5 .rectangle3copy18 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 23px;
+  height              : 40px;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(236, 236, 236, 1.0);
+}
+.login .group4 .group5 .johnjdaxcoza {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 33px;
+  height              : auto;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.login .group4 .group5 .password {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 89px;
+  height              : auto;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 14.0px;
+}
+.login .group4 .group5 .rectangle3copy181 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 112px;
+  height              : 40px;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(236, 236, 236, 1.0);
+}
+.login .group4 .group5 .graphicsvisibilityvisibilityon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 124px;
+  height              : 16px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 249px;
+}
+.login .group4 .group5 .graphicsvisibilityvisibilityon .shape {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 22px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.login .group4 .group5 .enteryourpassword {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 122px;
+  height              : auto;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.login .group4 .logintojdax {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 116px;
+  height              : auto;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SFCompactDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 36.0px;
+}
+.login .group4 .group1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 412px;
+  height              : 52px;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.login .group4 .jdaxlogologomark {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 80px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+}
+.login .group4 .jdaxlogologomark .fill12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : 46px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.login .group4 .jdaxlogologomark .fill21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 20px;
+  height              : 46px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 46px;
+}
+.login .group4 .jdaxlogologomark .fill32 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 29px;
+  height              : 51px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.login .group4 .jdaxlogologomark .fill4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 51px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 46px;
+}
+.login .group4 .group3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 200px;
+  height              : 63px;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.login .group4 .group2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 289px;
+  height              : 63px;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

@@ -1,0 +1,912 @@
+
+@font-face {
+  font-family: "SFProText-Regular";
+  src: url('../fonts/SF-Pro-Text-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactText-Light";
+  src: url('../fonts/SFCompactText-Light.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactText-Bold";
+  src: url('../fonts/SFCompactText-Bold.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactText-Regular";
+  src: url('../fonts/SFCompactText-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFProText-Bold";
+  src: url('../fonts/SF-Pro-Text-Bold.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactText-Medium";
+  src: url('../fonts/SFCompactText-Medium.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactDisplay-Regular";
+  src: url('../fonts/SFCompactDisplay-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFProText-Medium";
+  src: url('../fonts/SF-Pro-Text-Medium.otf') format("opentype");
+}
+
+.signup {
+  width               : 100%;
+  min-width           : 1440px;
+  min-height          : 810px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(249, 249, 249, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.signup .rectangle3-copy6 {
+  background-color    : rgba(249, 250, 252, 1.0);
+  top                 : 500px;
+  height              : 64px;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 578px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(236, 236, 236, 1.0);
+}
+.signup .checkbox-selected-copy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 520px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 594px;
+}
+.signup .checkbox-selected-copy2 .rectangle4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 2px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(236, 236, 236, 1.0);
+}
+.signup .im-not-a-robot {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 522px;
+  height              : auto;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 634px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(79, 85, 95, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.signup .nav-bar1-default {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.signup .nav-bar1-default .rectangle {
+  background-color    : rgba(36, 40, 48, 1.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.signup .nav-bar1-default .rectangle4-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 196px;
+  opacity             : 0.0;
+}
+.signup .nav-bar1-default .wallets {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 204px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.signup .nav-bar1-default .rectangle4-copy1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 346px;
+  opacity             : 0.0;
+}
+.signup .nav-bar1-default .exchange {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 354px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.signup .nav-bar1-default .rectangle4-copy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 496px;
+  opacity             : 0.0;
+}
+.signup .nav-bar1-default .information-kit {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 504px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.signup .nav-bar1-default .rectangle4-copy3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 646px;
+  opacity             : 0.0;
+}
+.signup .nav-bar1-default .support {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 654px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.signup .nav-bar1-default .tool-bar-search-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 12px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+}
+.signup .nav-bar1-default .tool-bar-search-copy .path3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.signup .nav-bar1-default .tool-bar-search-copy .path3-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 2px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.signup .nav-bar1-default .tool-bar-search-copy .path3-copy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 2px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.signup .nav-bar1-default .jdax-logo-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 27px;
+  width               : 110px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+}
+.signup .nav-bar1-default .jdax-logo-copy .fill1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 20px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+}
+.signup .nav-bar1-default .jdax-logo-copy .fill3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 19px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+}
+.signup .nav-bar1-default .jdax-logo-copy .fill5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 19px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+}
+.signup .nav-bar1-default .jdax-logo-copy .fill7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 19px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+}
+.signup .nav-bar1-default .jdax-logo-copy .group {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.signup .nav-bar1-default .jdax-logo-copy .group .fill11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.signup .nav-bar1-default .jdax-logo-copy .group .fill2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.signup .nav-bar1-default .jdax-logo-copy .group .fill31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 18px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.signup .nav-bar1-default .jdax-logo-copy .group .fill6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.signup .nav-bar1-default .rectangle4-copy31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 995px;
+  opacity             : 0.0;
+}
+.signup .nav-bar1-default .btc-zar136599 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 995px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.signup .nav-bar1-default .log-in {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 70px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1280px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.signup .nav-bar1-default .sign-up1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1185px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.signup .nav-bar1-default .rectangle9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 32px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1165px;
+  border-radius       : 16px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(100, 107, 120, 1.0);
+}
+.signup .group13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 508px;
+  height              : 48px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 806px;
+  overflow            : hidden;
+}
+.signup .group13 .s-vgid1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 48px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.signup .group13 .group12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 38px;
+  height              : 6px;
+  width               : 41px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.signup .group13 .group12 .shape {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1px;
+  height              : 5px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.signup .group13 .group12 .shape1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.signup .group13 .group12 .shape2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.signup .group13 .group12 .shape3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+}
+.signup .group13 .group12 .shape4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.signup .group13 .group12 .shape5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.signup .group13 .group12 .shape6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+}
+.signup .group13 .group12 .shape7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+}
+.signup .group13 .group12 .shape8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.signup .group13 .shape9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 13px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.signup .group13 .shape10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 8px;
+  height              : 12px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+}
+.signup .group13 .shape11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 15px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.signup .group13 .shape12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 8px;
+  height              : 21px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.signup .group13 .shape13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.signup .group13 .shape14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 21px;
+  height              : 13px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+}
+.signup .group13 .shape15 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 19px;
+  height              : 12px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+}
+.signup .sign-up-to-jdax {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 228px;
+  height              : auto;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 578px;
+  font-family         : "SFCompactDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 36.0px;
+}
+.signup .already-have-an-acco {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 727px;
+  height              : auto;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 578px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.34px;
+  line-height         : 20.0px;
+}
+.signup .group1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 648px;
+  height              : 52px;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 578px;
+}
+.signup .group1 .rectangle3-copy5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 52px;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.signup .group1 .create-an-account {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 18px;
+  height              : auto;
+  width               : 199px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.0px;
+  line-height         : 16.0px;
+}
+.signup .jdax-logo-logomark {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 117px;
+  height              : 80px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 670px;
+}
+.signup .jdax-logo-logomark .fill12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : 46px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.signup .jdax-logo-logomark .fill21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 20px;
+  height              : 46px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 46px;
+}
+.signup .jdax-logo-logomark .fill32 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 29px;
+  height              : 51px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.signup .jdax-logo-logomark .fill4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 51px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 46px;
+}
+.signup .please-enter-at-leas {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 458px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 593px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.signup .by-signing-up-you-a {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 590px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 588px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.signup .group3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 300px;
+  height              : 63px;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 578px;
+}
+.signup .group3 .email-address {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 14.0px;
+}
+.signup .group3 .rectangle3-copy18 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 23px;
+  height              : 40px;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(236, 236, 236, 1.0);
+}
+.signup .group3 .johnjdaxcoza {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 33px;
+  height              : auto;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.signup .group2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 389px;
+  height              : 63px;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 578px;
+}
+.signup .group2 .password {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 14.0px;
+}
+.signup .group2 .rectangle3-copy181 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 23px;
+  height              : 40px;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(236, 236, 236, 1.0);
+}
+.signup .group2 .graphics-visibility-visibilityon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 35px;
+  height              : 16px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 249px;
+}
+.signup .group2 .graphics-visibility-visibilityon .shape16 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 22px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.signup .group2 .enter-your-password {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 33px;
+  height              : auto;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

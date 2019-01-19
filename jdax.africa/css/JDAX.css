@@ -1,0 +1,124 @@
+/* Bootstrap Variables */
+
+/* JDAX brand colours */
+
+/* Non brand colours */
+
+/* Common Styles */
+
+/*@charset "UTF-8";*/
+
+/* CSS Document */
+
+@font-face {
+    font-family: "SFProText-Regular";
+    src: url('../fonts/SF-Pro-Text-Regular.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "SFCompactText-Light";
+    src: url('../fonts/SFCompactText-Light.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "SFCompactText-Bold";
+    src: url('../fonts/SFCompactText-Bold.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "SFCompactText-Regular";
+    src: url('../fonts/SFCompactText-Regular.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "SFProText-Bold";
+    src: url('../fonts/SF-Pro-Text-Bold.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "SFCompactText-Medium";
+    src: url('../fonts/SFCompactText-Medium.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "SFCompactDisplay-Regular";
+    src: url('../fonts/SFCompactDisplay-Regular.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "SFProText-Medium";
+    src: url('../fonts/SF-Pro-Text-Medium.otf') format("opentype");
+}
+
+/*
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+*/
+
+html {
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+.graphicsxgrey1 {
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 112px;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    margin: 0;
+    left: 1348px;
+}
+
+.graphicsxgrey1 .stroke11 {
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+}
+
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak {
+    display: none !important;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    /*	opacity: 0;*/
+}
+
+body.has-active-menu {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+a:hover {
+    transition: all 0s ease-in-out 0s;
+    text-decoration: none;
+}
+
+.update {
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+    position: fixed;
+    top: 44px;
+    width: 1440px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    z-index: 500;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .24), 0 0 2px 0 rgba(0, 0, 0, .12);
+}

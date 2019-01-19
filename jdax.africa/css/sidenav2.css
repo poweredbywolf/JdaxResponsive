@@ -1,0 +1,1600 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.sidenav a:hover{
+	color:rgba(0,162,167,1.00);
+	transition: all 0s ease-in-out 0s;
+	text-decoration: none;
+}
+
+
+.sidenav {
+  width               : 100%;
+  min-width           : 240px;
+  height              : 100vh;
+  min-height          : 927px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+
+.sidenav .rectangle3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 927px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .toolbarsearchcopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 15px;
+  height              : 14px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+}
+.sidenav .toolbarsearchcopy .path3copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -1px;
+  height              : 15px;
+  width               : 10px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .rectangle3copy3 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 378px;
+  height              : 1px;
+  width               : 188px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+}
+.sidenav .rectangle3copy2 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 705px;
+  height              : 1px;
+  width               : 188px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+}
+.sidenav .rectangle3copy4 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 832px;
+  height              : 1px;
+  width               : 188px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+}
+.sidenav .about {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 722px;
+  height              : auto;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 14.0px;
+}
+.sidenav .resources {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 395px;
+  height              : auto;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 14.0px;
+}
+.sidenav .products {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 148px;
+  height              : auto;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 14.0px;
+}
+.sidenav .voteforthenextco {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 851px;
+  height              : auto;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.sidenav .company {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 754px;
+  height              : auto;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.sidenav .careers {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 794px;
+  height              : auto;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.sidenav .support {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 427px;
+  height              : auto;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.sidenav .fees {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 507px;
+  height              : auto;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.sidenav .verification {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 547px;
+  height              : auto;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.sidenav .informationkit {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 467px;
+  height              : auto;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.sidenav .security {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 587px;
+  height              : auto;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.sidenav .terms {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 627px;
+  height              : auto;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.sidenav .privacy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 667px;
+  height              : auto;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.sidenav .instantbuysell {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 180px;
+  height              : auto;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.sidenav .wallets {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 220px;
+  height              : auto;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.sidenav .exchange {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 260px;
+  height              : auto;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.sidenav .api {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 340px;
+  height              : auto;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.sidenav .mobileapp {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 300px;
+  height              : auto;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 20.0px;
+}
+.sidenav .group {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 182px;
+  height              : 16px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+}
+.sidenav .group .stroke3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 2px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.sidenav .group .stroke5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 8px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+}
+.sidenav .group .stroke7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 3px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .group .stroke9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 8px;
+  height              : 8px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .group1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 298px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+}
+.sidenav .group1 .rectangle5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .group1 .stroke2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 20px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.sidenav .group1 .stroke4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 2px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.sidenav .group1 .stroke6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 2px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.sidenav .group1 .stroke8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 2px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+}
+.sidenav .group1 .stroke10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 17px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.sidenav .group2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 218px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+}
+.sidenav .group2 .rectangle51 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .group2 .group3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1px;
+  height              : 21px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.sidenav .group2 .group3 .stroke21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 7px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+}
+.sidenav .group2 .group3 .stroke41 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.sidenav .group2 .group3 .stroke61 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1px;
+  height              : 4px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+}
+.sidenav .group2 .group3 .stroke81 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 17px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .group2 .group3 .stroke101 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -1px;
+  height              : 6px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.sidenav .group4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 338px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+}
+.sidenav .group4 .rectangle52 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .group4 .path3copy1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 10px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.sidenav .group4 .path3copy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 10px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.sidenav .group4 .line3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 12px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+}
+.sidenav .group21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 258px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+}
+.sidenav .group21 .rectangle53 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .group21 .group5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 17px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.sidenav .group21 .group5 .stroke22 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1px;
+  height              : 9px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.sidenav .group21 .group5 .stroke31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.sidenav .group21 .group5 .stroke42 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 9px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.sidenav .group21 .group5 .stroke51 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 6px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+}
+.sidenav .group21 .group5 .stroke62 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 8px;
+  height              : 10px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.sidenav .group21 .group5 .stroke71 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 6px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.sidenav .group21 .group5 .stroke82 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 15px;
+  height              : 2px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .techspecwirelesschargingcopy13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 428px;
+  height              : 19px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+}
+.sidenav .techspecwirelesschargingcopy13 .stroke43 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 15px;
+  height              : 3px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+}
+.sidenav .techspecwirelesschargingcopy13 .stroke63 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 8px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+}
+.sidenav .techspecwirelesschargingcopy13 .stroke83 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -1px;
+  height              : 18px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.sidenav .techspecwirelesschargingcopy13 .stroke102 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 8px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.sidenav .group6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 545px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+}
+.sidenav .group6 .rectangle54 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .group6 .group22 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1px;
+  height              : 23px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.sidenav .group6 .group22 .stroke23 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+}
+.sidenav .group6 .group22 .stroke44 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 3px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+}
+.sidenav .group6 .group22 .stroke64 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : 2px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.sidenav .group6 .group22 .stroke84 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 2px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.sidenav .group6 .group22 .stroke103 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 9px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.sidenav .group6 .group22 .stroke12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+}
+.sidenav .group6 .group22 .stroke14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.sidenav .group6 .group22 .stroke16 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.sidenav .group6 .group22 .stroke18 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.sidenav .group6 .group22 .stroke20 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .group7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 465px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+}
+.sidenav .group7 .rectangle55 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .group7 .stroke24 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 12px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.sidenav .group7 .stroke32 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 13px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.sidenav .group7 .stroke52 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 12px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.sidenav .group7 .stroke72 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 13px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+}
+.sidenav .group7 .stroke91 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 8px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.sidenav .group7 .stroke11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 17px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+}
+.sidenav .group8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 585px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+}
+.sidenav .group8 .rectangle56 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .group8 .group61 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 20px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.sidenav .group8 .group61 .stroke25 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -1px;
+  height              : 20px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .group8 .group61 .stroke45 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 6px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.sidenav .group23 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 505px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+}
+.sidenav .group23 .rectangle57 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .group23 .group9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 14px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.sidenav .group23 .group9 .stroke26 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -1px;
+  height              : 4px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .group23 .group9 .stroke33 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 4px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .group23 .group9 .stroke46 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 5px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+}
+.sidenav .group23 .group9 .stroke53 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 5px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.sidenav .group23 .group9 .stroke65 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.sidenav .group23 .group9 .stroke85 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+}
+.sidenav .group23 .group9 .stroke104 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.sidenav .group23 .group9 .stroke121 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 6px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.sidenav .group24 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 625px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+}
+.sidenav .group24 .rectangle58 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .group24 .group10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 19px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.sidenav .group24 .group10 .group14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 19px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .group24 .group10 .group14 .stroke27 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -1px;
+  height              : 3px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.sidenav .group24 .group10 .group14 .stroke47 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .group24 .group10 .group14 .stroke66 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -1px;
+  height              : 13px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.sidenav .group24 .group10 .group14 .stroke86 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 2px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.sidenav .group24 .group10 .group14 .stroke105 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 2px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.sidenav .group24 .group10 .group14 .stroke122 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 2px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.sidenav .group18 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 755px;
+  height              : 18px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+}
+.sidenav .group18 .stroke28 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.sidenav .group18 .stroke48 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+}
+.sidenav .group18 .stroke67 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 8px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.sidenav .group18 .stroke87 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.sidenav .group18 .stroke106 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.sidenav .group18 .stroke123 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 8px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+}
+.sidenav .group18 .stroke141 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+}
+.sidenav .group18 .stroke161 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 8px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.sidenav .group25 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 665px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+}
+.sidenav .group25 .rectangle59 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .group25 .group11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 20px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.sidenav .group25 .group11 .stroke29 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 13px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .group25 .group11 .group71 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.sidenav .group25 .group11 .group71 .stroke34 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -1px;
+  height              : 8px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+}
+.sidenav .group25 .group11 .group71 .stroke54 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 7px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.sidenav .techspecwirelesschargingcopy21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 795px;
+  height              : 18px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+}
+.sidenav .techspecwirelesschargingcopy21 .stroke15 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 7px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .techspecwirelesschargingcopy21 .stroke162 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 5px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.sidenav .techspecwirelesschargingcopy21 .stroke17 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+}
+.sidenav .techspecwirelesschargingcopy21 .stroke181 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 8px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+}
+.sidenav .group12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 850px;
+  height              : 22px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+}
+.sidenav .group12 .stroke210 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 9px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .group12 .stroke35 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+}
+.sidenav .group12 .stroke49 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 9px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.sidenav .group12 .stroke68 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 12px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+}
+.sidenav .group12 .stroke88 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 7px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.sidenav .group12 .stroke107 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : 7px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+}
+.sidenav .group12 .stroke124 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 15px;
+  height              : 6px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.sidenav .group12 .stroke142 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 18px;
+  height              : 4px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.sidenav .jdaxlogocopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 27px;
+  width               : 110px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+}
+.sidenav .jdaxlogocopy .fill1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 20px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+}
+.sidenav .jdaxlogocopy .fill3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 19px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+}
+.sidenav .jdaxlogocopy .fill5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 19px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+}
+.sidenav .jdaxlogocopy .fill7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 19px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+}
+.sidenav .jdaxlogocopy .group13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .jdaxlogocopy .group13 .fill11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.sidenav .jdaxlogocopy .group13 .fill2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.sidenav .jdaxlogocopy .group13 .fill31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 18px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .jdaxlogocopy .group13 .fill6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.sidenav .getstarted {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 71px;
+  height              : 50px;
+  width               : 188px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+}
+.sidenav .getstarted .rectangle3copy5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 188px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sidenav .getstarted .getstarted1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 17px;
+  height              : auto;
+  width               : 137px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.0px;
+  line-height         : 16.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

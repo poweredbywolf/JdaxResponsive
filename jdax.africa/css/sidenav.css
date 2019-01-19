@@ -1,0 +1,768 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+a {
+    text-decoration : none;
+}
+div {
+    -webkit-text-size-adjust: none;
+}
+.sidenav-menu {
+    position: fixed;
+    z-index: 1032;
+    background-color: #fff;
+    -webkit-transition: -webkit-transform .3s;
+    -o-transition: -o-transform .3s;
+    transition: transform .3s;
+}
+.sidenav-menu__close:focus {
+    outline: none;
+}
+.sidenav-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1031;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, .5);
+    opacity: 0;
+}
+.sidenav-mask.is-active {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    opacity: 1;
+}
+.sidenav-menu--slide-left {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.sidenav-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.sidenav-menu li {
+    
+    margin: 20px 0 20px 59px;
+    
+    font-family: SFCompactText-Regular;
+    font-size: 15px;
+    color: #666666;
+    letter-spacing: -0.36px;
+    line-height: 20px;
+}
+.sidenav-menu li:first-child {
+    font-family : "SFCompactText-Bold", Helvetica, Arial, serif;
+    font-size : 12.0px;
+    color : rgba(204, 204, 204, 1.0);
+    text-align : left;
+    letter-spacing : 0.36px;
+    line-height : 14.0px;
+}
+
+@media all and (min-width: 320px) {
+.sidenav-menu--slide-left {
+    width: 240px;
+}
+}
+.sidenav-menu--slide-left {
+    top: 0;
+    left: 0;
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+@media all and (min-width: 320px) {
+.sidenav-menu--slide-left {
+    -webkit-transform: translateX(-250px);
+    -ms-transform: translateX(-250px);
+    -o-transform: translateX(-250px);
+    transform: translateX(-250px);
+}
+}
+.sidenav-menu--slide-left.is-active {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+}
+.sidenav-menu .ln-sidenav-top {
+    position: absolute;
+}
+.sidenav-menu .ln-sidenav-top svg g {
+    fill: #000000;
+}
+.sidenav a:hover {
+    /*	color: rgba(0,83,114,1.00);*/
+	
+	
+    color: #009777;
+    transition: all 0s ease-in-out 0s;
+    text-decoration: none;
+}
+.sidenav {
+    width: 100%;
+    min-width: 240px;
+    height: 100vh;
+    min-height: 927px;
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+    background-color: rgba(255, 255, 255, 1.0);
+}
+.sidenav .j-div {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 0px;
+    height : 927px;
+    width : 240px;
+    position : relative;
+    margin : 0;
+    left : 0px;
+}
+.sidenav .j-div .toolbarsearchcopy {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 0px;
+    height : 44px;
+    width : 44px;
+    position : absolute;
+    margin : 0;
+    left : 10px;
+}
+.sidenav .j-div .hr {
+    background-color : rgba(236, 236, 236, 1.0);
+    height : 1px;
+    width : 188px;
+    position : absolute;
+    margin : 0;
+    left : 26px;
+}
+.sidenav .j-div .about {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 722px;
+    height : auto;
+    width : 160px;
+    position : absolute;
+    margin : 0;
+    left : 26px;
+    font-family : "SFCompactText-Bold", Helvetica, Arial, serif;
+    font-size : 12.0px;
+    color : rgba(204, 204, 204, 1.0);
+    text-align : left;
+    letter-spacing : 0.36px;
+    line-height : 14.0px;
+}
+.sidenav .j-div .resources {
+    /*    background-color : rgba(255, 255, 255, 0.0);*/
+    top : 395px;
+    /*    height : auto;*/
+/*    width : 160px;*/
+    position : absolute;
+    margin : 0;
+    left : 26px;
+    font-family : "SFCompactText-Bold", Helvetica, Arial, serif;
+    font-size : 12.0px;
+    color : rgba(204, 204, 204, 1.0);
+    text-align : left;
+    letter-spacing : 0.36px;
+    line-height : 14.0px;
+}
+.sidenav .j-div .products {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 148px;
+    height : auto;
+    width : 160px;
+    position : absolute;
+    margin : 0;
+    left : 26px;
+    font-family : "SFCompactText-Bold", Helvetica, Arial, serif;
+    font-size : 12.0px;
+    color : rgba(204, 204, 204, 1.0);
+    text-align : left;
+    letter-spacing : 0.36px;
+    line-height : 14.0px;
+}
+.sidenav .j-div .group3 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 178px;
+    height : 24px;
+    width : 188px;
+    position : absolute;
+    margin : 0;
+    left : 26px;
+    transition : all 0.2s ease-in-out;
+}
+.sidenav .j-div .group3:hover {
+    transform : translate(5px, 0);
+}
+.sidenav .j-div .group3 .instantbuysell {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 2px;
+    height : auto;
+    width : 155px;
+    position : absolute;
+    margin : 0;
+    left : 33px;
+    font-family : "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size : 15.0px;
+    color : rgba(102, 102, 102, 1.0);
+    text-align : left;
+    letter-spacing : -0.36px;
+    line-height : 20.0px;
+}
+.sidenav .j-div .group3 .techspecwirelesschargingcopy7 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 0px;
+    height : 24px;
+    width : 24px;
+    position : absolute;
+    margin : 0;
+    left : 0px;
+}
+.sidenav .j-div .group6 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 298px;
+    height : 24px;
+    width : 188px;
+    position : absolute;
+    margin : 0;
+    left : 26px;
+    transition : all 0.2s ease-in-out;
+}
+.sidenav .j-div .group6:hover {
+    transform : translate(5px, 0);
+}
+.sidenav .j-div .group6 .mobileapp {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 2px;
+    height : auto;
+    width : 155px;
+    position : absolute;
+    margin : 0;
+    left : 33px;
+    font-family : "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size : 15.0px;
+    color : rgba(102, 102, 102, 1.0);
+    text-align : left;
+    letter-spacing : -0.36px;
+    line-height : 20.0px;
+}
+.sidenav .j-div .group6 .techspecwirelesschargingcopy10 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 0px;
+    height : 24px;
+    width : 24px;
+    position : absolute;
+    margin : 0;
+    left : 0px;
+}
+.sidenav .j-div .group4 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 218px;
+    height : 24px;
+    width : 188px;
+    position : absolute;
+    margin : 0;
+    left : 26px;
+    transition : all 0.2s ease-in-out;
+}
+.sidenav .j-div .group4:hover {
+    transform : translate(5px, 0);
+}
+.sidenav .j-div .group4 .wallets {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 2px;
+    height : auto;
+    width : 155px;
+    position : absolute;
+    margin : 0;
+    left : 33px;
+    font-family : "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size : 15.0px;
+    color : rgba(102, 102, 102, 1.0);
+    text-align : left;
+    letter-spacing : -0.36px;
+    line-height : 20.0px;
+}
+.sidenav .j-div .group4 .techspecwirelesschargingcopy8 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 0px;
+    height : 24px;
+    width : 24px;
+    position : absolute;
+    margin : 0;
+    left : 0px;
+}
+.sidenav .j-div .group7 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 338px;
+    height : 24px;
+    width : 188px;
+    position : absolute;
+    margin : 0;
+    left : 26px;
+    transition : all 0.2s ease-in-out;
+}
+.sidenav .j-div .group7:hover {
+    transform : translate(5px, 0);
+}
+.sidenav .j-div .group7 .api {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 2px;
+    height : auto;
+    width : 155px;
+    position : absolute;
+    margin : 0;
+    left : 33px;
+    font-family : "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size : 15.0px;
+    color : rgba(102, 102, 102, 1.0);
+    text-align : left;
+    letter-spacing : -0.36px;
+    line-height : 20.0px;
+}
+.sidenav .j-div .group7 .techspecwirelesschargingcopy11 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 0px;
+    height : 24px;
+    width : 24px;
+    position : absolute;
+    margin : 0;
+    left : 0px;
+}
+.sidenav .j-div .group5 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 258px;
+    height : 24px;
+    width : 188px;
+    position : absolute;
+    margin : 0;
+    left : 26px;
+    transition : all 0.2s ease-in-out;
+}
+.sidenav .j-div .group5:hover {
+    transform : translate(5px, 0);
+}
+.sidenav .j-div .group5 .exchange {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 2px;
+    height : auto;
+    width : 155px;
+    position : absolute;
+    margin : 0;
+    left : 33px;
+    font-family : "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size : 15.0px;
+    color : rgba(102, 102, 102, 1.0);
+    text-align : left;
+    letter-spacing : -0.36px;
+    line-height : 20.0px;
+}
+.sidenav .j-div .group5 .techspecwirelesschargingcopy9 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 0px;
+    height : 24px;
+    width : 24px;
+    position : absolute;
+    margin : 0;
+    left : 0px;
+}
+.sidenav .j-div .group8 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 425px;
+    height : 24px;
+    width : 188px;
+    position : absolute;
+    margin : 0;
+    left : 26px;
+    transition : all 0.2s ease-in-out;
+}
+.sidenav .j-div .group8:hover {
+    transform : translate(5px, 0);
+}
+.sidenav .j-div .group8 .support {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 2px;
+    height : auto;
+    width : 155px;
+    position : absolute;
+    margin : 0;
+    left : 33px;
+    font-family : "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size : 15.0px;
+    color : rgba(102, 102, 102, 1.0);
+    text-align : left;
+    letter-spacing : -0.36px;
+    line-height : 20.0px;
+}
+.sidenav .j-div .group8 .techspecwirelesschargingcopy13 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 0px;
+    height : 24px;
+    width : 24px;
+    position : absolute;
+    margin : 0;
+    left : 0px;
+}
+.sidenav .j-div .group11 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 545px;
+    height : 24px;
+    width : 188px;
+    position : absolute;
+    margin : 0;
+    left : 26px;
+    transition : all 0.2s ease-in-out;
+}
+.sidenav .j-div .group11:hover {
+    transform : translate(5px, 0);
+}
+.sidenav .j-div .group11 .verification {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 2px;
+    height : auto;
+    width : 155px;
+    position : absolute;
+    margin : 0;
+    left : 33px;
+    font-family : "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size : 15.0px;
+    color : rgba(102, 102, 102, 1.0);
+    text-align : left;
+    letter-spacing : -0.36px;
+    line-height : 20.0px;
+}
+.sidenav .j-div .group11 .techspecwirelesschargingcopy14 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 0px;
+    height : 24px;
+    width : 24px;
+    position : absolute;
+    margin : 0;
+    left : 0px;
+}
+.sidenav .j-div .group9 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 465px;
+    height : 24px;
+    width : 188px;
+    position : absolute;
+    margin : 0;
+    left : 26px;
+    transition : all 0.2s ease-in-out;
+}
+.sidenav .j-div .group9:hover {
+    transform : translate(5px, 0);
+}
+.sidenav .j-div .group9 .informationkit {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 2px;
+    height : auto;
+    width : 155px;
+    position : absolute;
+    margin : 0;
+    left : 33px;
+    font-family : "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size : 15.0px;
+    color : rgba(102, 102, 102, 1.0);
+    text-align : left;
+    letter-spacing : -0.36px;
+    line-height : 20.0px;
+}
+.sidenav .j-div .group9 .techspecwirelesschargingcopy15 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 0px;
+    height : 24px;
+    width : 24px;
+    position : absolute;
+    margin : 0;
+    left : 0px;
+}
+.sidenav .j-div .group12 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 585px;
+    height : 24px;
+    width : 188px;
+    position : absolute;
+    margin : 0;
+    left : 26px;
+    transition : all 0.2s ease-in-out;
+}
+.sidenav .j-div .group12:hover {
+    transform : translate(5px, 0);
+}
+.sidenav .j-div .group12 .security {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 2px;
+    height : auto;
+    width : 155px;
+    position : absolute;
+    margin : 0;
+    left : 33px;
+    font-family : "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size : 15.0px;
+    color : rgba(102, 102, 102, 1.0);
+    text-align : left;
+    letter-spacing : -0.36px;
+    line-height : 20.0px;
+}
+.sidenav .j-div .group12 .techspecwirelesschargingcopy16 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 0px;
+    height : 24px;
+    width : 24px;
+    position : absolute;
+    margin : 0;
+    left : 0px;
+}
+.sidenav .j-div .group10 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 505px;
+    height : 24px;
+    width : 188px;
+    position : absolute;
+    margin : 0;
+    left : 26px;
+    transition : all 0.2s ease-in-out;
+}
+.sidenav .j-div .group10:hover {
+    transform : translate(5px, 0);
+}
+.sidenav .j-div .group10 .fees {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 2px;
+    height : auto;
+    width : 155px;
+    position : absolute;
+    margin : 0;
+    left : 33px;
+    font-family : "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size : 15.0px;
+    color : rgba(102, 102, 102, 1.0);
+    text-align : left;
+    letter-spacing : -0.36px;
+    line-height : 20.0px;
+}
+.sidenav .j-div .group10 .techspecwirelesschargingcopy17 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 0px;
+    height : 24px;
+    width : 24px;
+    position : absolute;
+    margin : 0;
+    left : 0px;
+}
+.sidenav .j-div .group13 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 625px;
+    height : 24px;
+    width : 188px;
+    position : absolute;
+    margin : 0;
+    left : 26px;
+    transition : all 0.2s ease-in-out;
+}
+.sidenav .j-div .group13:hover {
+    transform : translate(5px, 0);
+}
+.sidenav .j-div .group13 .terms {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 2px;
+    height : auto;
+    width : 155px;
+    position : absolute;
+    margin : 0;
+    left : 33px;
+    font-family : "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size : 15.0px;
+    color : rgba(102, 102, 102, 1.0);
+    text-align : left;
+    letter-spacing : -0.36px;
+    line-height : 20.0px;
+}
+.sidenav .j-div .group13 .techspecwirelesschargingcopy18 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 0px;
+    height : 24px;
+    width : 24px;
+    position : absolute;
+    margin : 0;
+    left : 0px;
+}
+.sidenav .j-div .group15 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 752px;
+    height : 24px;
+    width : 188px;
+    position : absolute;
+    margin : 0;
+    left : 26px;
+    transition : all 0.2s ease-in-out;
+}
+.sidenav .j-div .group15:hover {
+    transform : translate(5px, 0);
+}
+.sidenav .j-div .group15 .company {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 2px;
+    height : auto;
+    width : 155px;
+    position : absolute;
+    margin : 0;
+    left : 33px;
+    font-family : "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size : 15.0px;
+    color : rgba(102, 102, 102, 1.0);
+    text-align : left;
+    letter-spacing : -0.36px;
+    line-height : 20.0px;
+}
+.sidenav .j-div .group15 .techspecwirelesschargingcopy20 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 0px;
+    height : 24px;
+    width : 24px;
+    position : absolute;
+    margin : 0;
+    left : 0px;
+}
+.sidenav .j-div .group14 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 665px;
+    height : 24px;
+    width : 188px;
+    position : absolute;
+    margin : 0;
+    left : 26px;
+    transition : all 0.2s ease-in-out;
+}
+.sidenav .j-div .group14:hover {
+    transform : translate(5px, 0);
+}
+.sidenav .j-div .group14 .privacy {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 2px;
+    height : auto;
+    width : 155px;
+    position : absolute;
+    margin : 0;
+    left : 33px;
+    font-family : "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size : 15.0px;
+    color : rgba(102, 102, 102, 1.0);
+    text-align : left;
+    letter-spacing : -0.36px;
+    line-height : 20.0px;
+}
+.sidenav .j-div .group14 .techspecwirelesschargingcopy19 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 0px;
+    height : 24px;
+    width : 24px;
+    position : absolute;
+    margin : 0;
+    left : 0px;
+}
+.sidenav .j-div .group16 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 792px;
+    height : 24px;
+    width : 188px;
+    position : absolute;
+    margin : 0;
+    left : 26px;
+    transition : all 0.2s ease-in-out;
+}
+.sidenav .j-div .group16:hover {
+    transform : translate(5px, 0);
+}
+.sidenav .j-div .group16 .careers {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 2px;
+    height : auto;
+    width : 155px;
+    position : absolute;
+    margin : 0;
+    left : 33px;
+    font-family : "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size : 15.0px;
+    color : rgba(102, 102, 102, 1.0);
+    text-align : left;
+    letter-spacing : -0.36px;
+    line-height : 20.0px;
+}
+.sidenav .j-div .group16 .techspecwirelesschargingcopy21 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 0px;
+    height : 24px;
+    width : 24px;
+    position : absolute;
+    margin : 0;
+    left : 0px;
+}
+.sidenav .j-div .group17 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 849px;
+    height : 24px;
+    width : 188px;
+    position : absolute;
+    margin : 0;
+    left : 26px;
+    transition : all 0.2s ease-in-out;
+}
+.sidenav .j-div .group17:hover {
+    transform : translate(5px, 0);
+}
+.sidenav .j-div .group17 .voteforthenextco {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 2px;
+    height : auto;
+    width : 155px;
+    position : absolute;
+    margin : 0;
+    left : 33px;
+    font-family : "SFCompactText-Regular", Helvetica, Arial, serif;
+    font-size : 15.0px;
+    color : rgba(102, 102, 102, 1.0);
+    text-align : left;
+    letter-spacing : -0.36px;
+    line-height : 20.0px;
+}
+.sidenav .j-div .group17 .techspecwirelesschargingcopy22 {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 0px;
+    height : 24px;
+    width : 24px;
+    position : absolute;
+    margin : 0;
+    left : 0px;
+}
+.sidenav .j-div .jdaxlogocopy {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 0px;
+    height : 44px;
+    width : 110px;
+    position : absolute;
+    margin : 0;
+    left : 70px;
+}
+.sidenav .j-div .group {
+    background-color : rgba(255, 255, 255, 0.0);
+    top : 71px;
+    height : 50px;
+    width : 188px;
+    position : absolute;
+    margin : 0;
+    left : 26px;
+    transition : all 0.2s ease-in-out;
+}
+.sidenav .j-div .group:hover {
+    transform : scale(1.1);
+}

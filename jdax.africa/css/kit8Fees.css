@@ -1,0 +1,1645 @@
+
+@font-face {
+  font-family: "SFProText-Regular";
+  src: url('../fonts/SF-Pro-Text-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactText-Light";
+  src: url('../fonts/SFCompactText-Light.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactText-Bold";
+  src: url('../fonts/SFCompactText-Bold.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactText-Regular";
+  src: url('../fonts/SFCompactText-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFProText-Bold";
+  src: url('../fonts/SF-Pro-Text-Bold.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactText-Medium";
+  src: url('../fonts/SFCompactText-Medium.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactDisplay-Regular";
+  src: url('../fonts/SFCompactDisplay-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFProText-Medium";
+  src: url('../fonts/SF-Pro-Text-Medium.otf') format("opentype");
+}
+
+.kit8-fees {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 1460px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(252, 252, 252, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.kit8-fees .fees {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 117px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 672px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 42.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 50.0px;
+}
+.kit8-fees .trading-fees {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 245px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 390px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.kit8-fees .sending-withdrawal {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 549px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 390px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.kit8-fees .mask-copy5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 293px;
+  height              : 201px;
+  width               : 369px;
+  position            : absolute;
+  margin              : 0;
+  left                : 726px;
+}
+.kit8-fees .maker-fee {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 385px;
+  height              : auto;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 741px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit8-fees .taker-fee {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 385px;
+  height              : auto;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 920px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit8-fees .a000 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 431px;
+  height              : auto;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 741px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.kit8-fees .a09-less-than-r3-m {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 420px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 923px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.36px;
+  line-height         : 21.0px;
+}
+.kit8-fees .rectangle13 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 368px;
+  height              : 111px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 910px;
+}
+.kit8-fees .rectangle131 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 358px;
+  height              : 1px;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : 748px;
+}
+.kit8-fees .crypto {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 320px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 922px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit8-fees .fiat {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 320px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 835px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit8-fees .group {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 324px;
+  height              : 10px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 884px;
+}
+.kit8-fees .group .stroke3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 2px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(-360deg); /* IE 9 */
+  -webkit-transform   : rotate(-360deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-360deg);
+}
+.kit8-fees .group .stroke4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 8px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(-360deg); /* IE 9 */
+  -webkit-transform   : rotate(-360deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-360deg);
+}
+.kit8-fees .group .stroke5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 8px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(-360deg); /* IE 9 */
+  -webkit-transform   : rotate(-360deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-360deg);
+}
+.kit8-fees .mask-copy51 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 597px;
+  height              : 201px;
+  width               : 369px;
+  position            : absolute;
+  margin              : 0;
+  left                : 726px;
+}
+.kit8-fees .rectangle132 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 662px;
+  height              : 1px;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : 748px;
+}
+.kit8-fees .withdraw-fiat-fees {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 623px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 824px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit8-fees .r7-withdraw {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 717px;
+  height              : auto;
+  width               : 184px;
+  position            : absolute;
+  margin              : 0;
+  left                : 819px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.kit8-fees .mask-copy52 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 293px;
+  height              : 201px;
+  width               : 369px;
+  position            : absolute;
+  margin              : 0;
+  left                : 339px;
+}
+.kit8-fees .a0001 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 431px;
+  height              : auto;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 354px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.kit8-fees .a025 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 431px;
+  height              : auto;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 533px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.kit8-fees .rectangle133 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 368px;
+  height              : 111px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 523px;
+}
+.kit8-fees .rectangle134 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 358px;
+  height              : 1px;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : 361px;
+}
+.kit8-fees .crypto1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 320px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 550px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit8-fees .crypto-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 320px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 433px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit8-fees .group1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 324px;
+  height              : 10px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 512px;
+}
+.kit8-fees .group1 .stroke31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 2px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(-360deg); /* IE 9 */
+  -webkit-transform   : rotate(-360deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-360deg);
+}
+.kit8-fees .group1 .stroke41 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 8px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(-360deg); /* IE 9 */
+  -webkit-transform   : rotate(-360deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-360deg);
+}
+.kit8-fees .group1 .stroke51 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 8px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(-360deg); /* IE 9 */
+  -webkit-transform   : rotate(-360deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-360deg);
+}
+.kit8-fees .mask-copy6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 597px;
+  height              : 375px;
+  width               : 369px;
+  position            : absolute;
+  margin              : 0;
+  left                : 339px;
+}
+.kit8-fees .rectangle13-copy {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 662px;
+  height              : 1px;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : 361px;
+}
+.kit8-fees .sending-crypto-fees {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 623px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 432px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit8-fees .a0001-btc {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 687px;
+  height              : auto;
+  width               : 82px;
+  position            : absolute;
+  margin              : 0;
+  left                : 574px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.36px;
+  line-height         : 21.0px;
+}
+.kit8-fees .a0001-eth {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 743px;
+  height              : auto;
+  width               : 82px;
+  position            : absolute;
+  margin              : 0;
+  left                : 574px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.36px;
+  line-height         : 21.0px;
+}
+.kit8-fees .a0001-xrp {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 799px;
+  height              : auto;
+  width               : 82px;
+  position            : absolute;
+  margin              : 0;
+  left                : 574px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.36px;
+  line-height         : 21.0px;
+}
+.kit8-fees .a0001-bch {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 855px;
+  height              : auto;
+  width               : 82px;
+  position            : absolute;
+  margin              : 0;
+  left                : 574px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.36px;
+  line-height         : 21.0px;
+}
+.kit8-fees .a0001-ltc {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 911px;
+  height              : auto;
+  width               : 82px;
+  position            : absolute;
+  margin              : 0;
+  left                : 574px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.36px;
+  line-height         : 21.0px;
+}
+.kit8-fees .bitcoin {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 688px;
+  height              : auto;
+  width               : 124px;
+  position            : absolute;
+  margin              : 0;
+  left                : 404px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit8-fees .bitcoin-cash {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 856px;
+  height              : auto;
+  width               : 124px;
+  position            : absolute;
+  margin              : 0;
+  left                : 404px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit8-fees .ethereum {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 744px;
+  height              : auto;
+  width               : 124px;
+  position            : absolute;
+  margin              : 0;
+  left                : 404px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit8-fees .ripple {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 800px;
+  height              : auto;
+  width               : 124px;
+  position            : absolute;
+  margin              : 0;
+  left                : 404px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit8-fees .litecoin {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 912px;
+  height              : auto;
+  width               : 124px;
+  position            : absolute;
+  margin              : 0;
+  left                : 404px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 244px;
+  height              : 29px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 345px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy7 .stroke42 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 20px;
+  height              : 4px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy7 .stroke6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 23px;
+  height              : 4px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy7 .stroke7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy7 .stroke2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : 4px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy7 .stroke32 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 17px;
+  height              : 4px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy7 .group2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 14px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy7 .group2 .stroke33 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 2px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy7 .group2 .stroke52 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 8px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy7 .group2 .stroke71 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 2px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy7 .group2 .stroke9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 8px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 548px;
+  height              : 29px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 345px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy8 .stroke43 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 20px;
+  height              : 4px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy8 .stroke61 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 23px;
+  height              : 4px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy8 .stroke72 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy8 .stroke21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : 4px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy8 .stroke34 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 17px;
+  height              : 4px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy8 .stroke35 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 11px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy8 .stroke53 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 5px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy8 .stroke73 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 15px;
+  height              : 6px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.kit8-fees .receiving-deposit-fe {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1095px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 390px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.kit8-fees .mask-copy53 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1143px;
+  height              : 201px;
+  width               : 369px;
+  position            : absolute;
+  margin              : 0;
+  left                : 726px;
+}
+.kit8-fees .rectangle135 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 1208px;
+  height              : 1px;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : 748px;
+}
+.kit8-fees .deposit-fiat-fees {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1169px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 834px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit8-fees .free {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1263px;
+  height              : auto;
+  width               : 184px;
+  position            : absolute;
+  margin              : 0;
+  left                : 819px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.kit8-fees .mask-copy54 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1148px;
+  height              : 191px;
+  width               : 359px;
+  position            : absolute;
+  margin              : 0;
+  left                : 344px;
+  border-radius       : 4px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(240, 240, 240, 1.0);
+}
+.kit8-fees .rectangle136 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 1208px;
+  height              : 1px;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : 361px;
+}
+.kit8-fees .receiving-crypto-fee {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1169px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 425px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit8-fees .free1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1263px;
+  height              : auto;
+  width               : 184px;
+  position            : absolute;
+  margin              : 0;
+  left                : 432px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1094px;
+  height              : 29px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 345px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy9 .stroke44 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 20px;
+  height              : 4px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy9 .stroke62 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 23px;
+  height              : 4px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy9 .stroke74 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy9 .stroke36 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 11px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy9 .stroke54 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : 5px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy9 .stroke75 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 15px;
+  height              : 6px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy9 .stroke22 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : 4px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+}
+.kit8-fees .tech-spec-wireless-charging-copy9 .stroke37 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 17px;
+  height              : 4px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+}
+.kit8-fees .maker-fee1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 385px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 384px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit8-fees .graphics-info {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 387px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 480px;
+}
+.kit8-fees .graphics-info .oval6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit8-fees .graphics-info .fill1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 9px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+}
+.kit8-fees .taker-fee1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 385px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 566px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit8-fees .graphics-info-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 387px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 657px;
+}
+.kit8-fees .graphics-info-copy .oval61 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit8-fees .graphics-info-copy .fill11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 9px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+}
+.kit8-fees .the-fees-shown-here {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 978px;
+  height              : auto;
+  width               : 345px;
+  position            : absolute;
+  margin              : 0;
+  left                : 351px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.kit8-fees .nav-bar1-default {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit8-fees .nav-bar1-default .rectangle {
+  background-color    : rgba(36, 40, 48, 1.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit8-fees .nav-bar1-default .rectangle4-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 196px;
+  opacity             : 0.0;
+}
+.kit8-fees .nav-bar1-default .wallets {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 204px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit8-fees .nav-bar1-default .rectangle4-copy1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 346px;
+  opacity             : 0.0;
+}
+.kit8-fees .nav-bar1-default .exchange {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 354px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit8-fees .nav-bar1-default .rectangle4-copy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 496px;
+  opacity             : 0.0;
+}
+.kit8-fees .nav-bar1-default .information-kit {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 504px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit8-fees .nav-bar1-default .rectangle4-copy3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 646px;
+  opacity             : 0.0;
+}
+.kit8-fees .nav-bar1-default .support {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 654px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit8-fees .nav-bar1-default .tool-bar-search-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 12px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+}
+.kit8-fees .nav-bar1-default .tool-bar-search-copy .path3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit8-fees .nav-bar1-default .tool-bar-search-copy .path3-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 2px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit8-fees .nav-bar1-default .tool-bar-search-copy .path3-copy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 2px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit8-fees .nav-bar1-default .jdax-logo-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 27px;
+  width               : 110px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+}
+.kit8-fees .nav-bar1-default .jdax-logo-copy .fill12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 20px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+}
+.kit8-fees .nav-bar1-default .jdax-logo-copy .fill3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 19px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+}
+.kit8-fees .nav-bar1-default .jdax-logo-copy .fill5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 19px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+}
+.kit8-fees .nav-bar1-default .jdax-logo-copy .fill7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 19px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+}
+.kit8-fees .nav-bar1-default .jdax-logo-copy .group3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit8-fees .nav-bar1-default .jdax-logo-copy .group3 .fill13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.kit8-fees .nav-bar1-default .jdax-logo-copy .group3 .fill2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.kit8-fees .nav-bar1-default .jdax-logo-copy .group3 .fill31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 18px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit8-fees .nav-bar1-default .jdax-logo-copy .group3 .fill6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.kit8-fees .nav-bar1-default .rectangle4-copy31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 995px;
+  opacity             : 0.0;
+}
+.kit8-fees .nav-bar1-default .btc-zar136599 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 995px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit8-fees .nav-bar1-default .log-in {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 70px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1280px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit8-fees .nav-bar1-default .sign-up {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1185px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit8-fees .nav-bar1-default .rectangle9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 32px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1165px;
+  border-radius       : 16px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(100, 107, 120, 1.0);
+}
+.kit8-fees .graphics-x-grey {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 112px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1348px;
+}
+.kit8-fees .graphics-x-grey .stroke1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit8-fees .graphics-x-grey .stroke38 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit8-fees .wallet3-bt-cgrey {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 685px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 371px;
+}
+.kit8-fees .wallet3-bt-cgrey .fill23 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit8-fees .wallet3-bt-cgrey .fill24 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 14px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(15deg); /* IE 9 */
+  -webkit-transform   : rotate(15deg); /* Chrome, Safari, Opera */
+  transform           : rotate(15deg);
+}
+.kit8-fees .wallet3-btc-grey-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 741px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 371px;
+}
+.kit8-fees .wallet3-btc-grey-copy .fill231 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit8-fees .wallet3-btc-grey-copy .fill4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 11px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.kit8-fees .wallet3-btc-grey-copy .fill61 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : 7px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.kit8-fees .wallet3-btc-grey-copy3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 853px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 371px;
+}
+.kit8-fees .wallet3-btc-grey-copy3 .fill232 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit8-fees .wallet3-btc-grey-copy3 .fill241 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 14px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(-15deg); /* IE 9 */
+  -webkit-transform   : rotate(-15deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-15deg);
+}
+.kit8-fees .wallet3-btc-grey-copy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 797px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 371px;
+}
+.kit8-fees .wallet3-btc-grey-copy2 .fill233 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit8-fees .wallet3-btc-grey-copy2 .fill26 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit8-fees .wallet3-btc-grey-copy4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 909px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 371px;
+}
+.kit8-fees .wallet3-btc-grey-copy4 .fill234 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit8-fees .wallet3-btc-grey-copy4 .fill16 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 10px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

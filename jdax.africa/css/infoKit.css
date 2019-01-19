@@ -1,0 +1,1279 @@
+@font-face {
+  font-family: "SFCompactText-Regular";
+  src: url('../fonts/SFCompactText-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFProText-Regular";
+  src: url('../fonts/SF-Pro-Text-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactText-Bold";
+  src: url('../fonts/SFCompactText-Bold.otf') format("opentype");
+}
+
+.informationkit {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 1638px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.informationkit .informationkit {
+	background-color    : rgba(255, 255, 255, 0.0);
+	top                 : 117px;
+	height              : auto;
+	width               : auto;
+	position            : absolute;
+	margin              : 0;
+	font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+	font-size           : 42.0px;
+	color               : rgba(46, 46, 46, 1.0);
+	text-align          : center;
+	line-height         : 50.0px;
+	left: auto;
+}
+.informationkit .alltheinformation {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 203px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 502px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.36px;
+  line-height         : 26.0px;
+}
+.informationkit .group2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 265px;
+  height              : 310px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 570px;
+  transition          : all 0.2s ease-in-out;
+}
+.informationkit .group2:hover {
+  transform           : translate(0, -5px);
+  box-shadow          : 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+
+.informationkit .group11:hover {
+  transform           : translate(0, -5px);
+  box-shadow          : 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.informationkit .group2 .maskcopy4 {
+  background-color    : rgba(193, 193, 193, 1.0);
+  top                 : 0px;
+  height              : 310px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+}
+.informationkit .group2 .verification {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 193px;
+  height              : auto;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.41px;
+  line-height         : 21.0px;
+}
+.informationkit .group2 .infokit1signingup {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 99px;
+  height              : 75px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+}
+.informationkit .group2 .infokit1signingup .rectangle5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 75px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.informationkit .group2 .infokit1signingup .stroke2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 45px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+}
+.informationkit .group2 .infokit1signingup .stroke4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 54px;
+  height              : 10px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+}
+.informationkit .group2 .infokit1signingup .stroke6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 48px;
+  height              : 4px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+}
+.informationkit .group2 .infokit1signingup .stroke8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 55px;
+  height              : 4px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+}
+.informationkit .group2 .infokit1signingup .stroke10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 27px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+}
+.informationkit .group2 .infokit1signingup .stroke12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 23px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+}
+.informationkit .group2 .infokit1signingup .stroke14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 30px;
+  height              : 10px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+}
+.informationkit .group2 .infokit1signingup .stroke16 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 30px;
+  height              : 10px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+}
+.informationkit .group2 .infokit1signingup .stroke18 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 47px;
+}
+.informationkit .group2 .infokit1signingup .stroke20 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 61px;
+  width               : 45px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.informationkit .group {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 265px;
+  height              : 310px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 250px;
+  transition          : all 0.2s ease-in-out;
+}
+.informationkit .group:hover {
+  transform           : translate(0, -5px);
+  box-shadow          : 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.informationkit .group .maskcopy3 {
+  background-color    : rgba(193, 193, 193, 1.0);
+  top                 : 0px;
+  height              : 310px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+}
+.informationkit .group .signingup {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 193px;
+  height              : auto;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.41px;
+  line-height         : 21.0px;
+}
+.informationkit .group .infokit1signingup1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 99px;
+  height              : 75px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+}
+.informationkit .group .infokit1signingup1 .rectangle2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 75px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.informationkit .group .infokit1signingup1 .stroke41 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 61px;
+  height              : 4px;
+  width               : 56px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+}
+.informationkit .group .infokit1signingup1 .stroke61 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 42px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+}
+.informationkit .group .infokit1signingup1 .stroke81 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 12px;
+  height              : 42px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+}
+.informationkit .group .infokit1signingup1 .stroke101 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 16px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+}
+.informationkit .group6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 595px;
+  height              : 310px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 250px;
+  transition          : all 0.2s ease-in-out;
+}
+.informationkit .group6:hover {
+  transform           : translate(0, -5px);
+  box-shadow          : 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.informationkit .group6 .maskcopy5 {
+  background-color    : rgba(193, 193, 193, 1.0);
+  top                 : 0px;
+  height              : 310px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+}
+.informationkit .group6 .depositswithdrawa {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 217px;
+  height              : auto;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.informationkit .group6 .cryptocopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 193px;
+  height              : auto;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.41px;
+  line-height         : 21.0px;
+}
+.informationkit .group6 .infokit1signingupcopy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 99px;
+  height              : 75px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+}
+.informationkit .group6 .infokit1signingupcopy2 .rectangle4copy4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 75px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 37px;
+}
+.informationkit .group6 .infokit1signingupcopy2 .stroke3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : 34px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+}
+.informationkit .group6 .infokit1signingupcopy2 .stroke5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 34px;
+  height              : 14px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+}
+.informationkit .group6 .infokit1signingupcopy2 .stroke7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 42px;
+  height              : 18px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+}
+.informationkit .group11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1255px;
+  height              : 310px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 250px;
+  transition          : all 0.2s ease-in-out;
+}
+.informationkit .group11:hover {
+  
+}
+.informationkit .group11 .maskcopy10 {
+  background-color    : rgba(193, 193, 193, 1.0);
+  top                 : 0px;
+  height              : 310px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+}
+.informationkit .group11 .api {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 193px;
+  height              : auto;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.41px;
+  line-height         : 21.0px;
+}
+.informationkit .group11 .infokit1signingupcopy7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 99px;
+  height              : 75px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+}
+.informationkit .group11 .infokit1signingupcopy7 .rectangle51 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 75px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.informationkit .group11 .infokit1signingupcopy7 .path3copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 21px;
+  height              : 32px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.informationkit .group11 .infokit1signingupcopy7 .path3copy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 21px;
+  height              : 32px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+}
+.informationkit .group11 .infokit1signingupcopy7 .line3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 17px;
+  height              : 40px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+}
+.informationkit .group5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 265px;
+  height              : 310px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 890px;
+  transition          : all 0.2s ease-in-out;
+}
+.informationkit .group5:hover {
+  transform           : translate(0, -5px);
+  box-shadow          : 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.informationkit .group5 .maskcopy6 {
+  background-color    : rgba(193, 193, 193, 1.0);
+  top                 : 0px;
+  height              : 310px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+}
+.informationkit .group5 .instantbuysell {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 193px;
+  height              : auto;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.41px;
+  line-height         : 21.0px;
+}
+.informationkit .group5 .infokit1signingupcopy3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 99px;
+  height              : 75px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+}
+.informationkit .group5 .infokit1signingupcopy3 .rectangle4copy41 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 75px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 37px;
+}
+.informationkit .group5 .infokit1signingupcopy3 .stroke31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 25px;
+  height              : 4px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.informationkit .group5 .infokit1signingupcopy3 .stroke51 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 17px;
+  height              : 21px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+}
+.informationkit .group5 .infokit1signingupcopy3 .stroke71 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 45px;
+  height              : 4px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+}
+.informationkit .group5 .infokit1signingupcopy3 .stroke9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 37px;
+  height              : 21px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+}
+.informationkit .group3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1255px;
+  height              : 310px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 890px;
+  transition          : all 0.2s ease-in-out;
+}
+.informationkit .group3:hover {
+  transform           : translate(0, -5px);
+  box-shadow          : 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.informationkit .group3 .maskcopy11 {
+  background-color    : rgba(193, 193, 193, 1.0);
+  top                 : 0px;
+  height              : 310px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+}
+.informationkit .group3 .termsofuse {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 193px;
+  height              : auto;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.41px;
+  line-height         : 21.0px;
+}
+.informationkit .group3 .infokit1signingupcopy8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 99px;
+  height              : 75px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+}
+.informationkit .group3 .infokit1signingupcopy8 .rectangle52 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 75px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.informationkit .group3 .infokit1signingupcopy8 .stroke21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 9px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 54px;
+}
+.informationkit .group3 .infokit1signingupcopy8 .stroke42 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : 51px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+}
+.informationkit .group3 .infokit1signingupcopy8 .stroke62 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 41px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.informationkit .group3 .infokit1signingupcopy8 .stroke82 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 21px;
+  height              : 4px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+}
+.informationkit .group3 .infokit1signingupcopy8 .stroke102 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 30px;
+  height              : 4px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+}
+.informationkit .group3 .infokit1signingupcopy8 .stroke121 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 39px;
+  height              : 4px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+}
+.informationkit .group9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 925px;
+  height              : 310px;
+  width               : 620px;
+  position            : absolute;
+  margin              : 0;
+  left                : 250px;
+  transition          : all 0.2s ease-in-out;
+}
+.informationkit .group9:hover {
+  transform           : translate(0, -5px);
+  box-shadow          : 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.informationkit .group9 .maskcopy8 {
+  background-color    : rgba(193, 193, 193, 1.0);
+  top                 : 0px;
+  height              : 310px;
+  width               : 620px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+}
+.informationkit .group9 .security {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 193px;
+  height              : auto;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : 177px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.41px;
+  line-height         : 21.0px;
+}
+.informationkit .group9 .infokit1signingupcopy5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 99px;
+  height              : 75px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 273px;
+}
+.informationkit .group9 .infokit1signingupcopy5 .rectangle53 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 75px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.informationkit .group9 .infokit1signingupcopy5 .stroke22 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 61px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.informationkit .group9 .infokit1signingupcopy5 .stroke43 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 25px;
+  height              : 19px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+}
+.informationkit .group10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 925px;
+  height              : 310px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 890px;
+  transition          : all 0.2s ease-in-out;
+}
+.informationkit .group10:hover {
+  transform           : translate(0, -5px);
+  box-shadow          : 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.informationkit .group10 .maskcopy9 {
+  background-color    : rgba(193, 193, 193, 1.0);
+  top                 : 0px;
+  height              : 310px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+}
+.informationkit .group10 .fees {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 193px;
+  height              : auto;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.41px;
+  line-height         : 21.0px;
+}
+.informationkit .group10 .infokit1signingupcopy6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 99px;
+  height              : 75px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+}
+.informationkit .group10 .infokit1signingupcopy6 .rectangle54 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 75px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.informationkit .group10 .infokit1signingupcopy6 .stroke23 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 19px;
+  height              : 12px;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+}
+.informationkit .group10 .infokit1signingupcopy6 .stroke32 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 43px;
+  height              : 12px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+}
+.informationkit .group10 .infokit1signingupcopy6 .stroke44 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 27px;
+  height              : 12px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.informationkit .group10 .infokit1signingupcopy6 .stroke52 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 35px;
+  height              : 12px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+}
+.informationkit .group10 .infokit1signingupcopy6 .stroke63 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 20px;
+  height              : 40px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+}
+.informationkit .group10 .infokit1signingupcopy6 .stroke83 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 29px;
+  height              : 8px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+}
+.informationkit .group10 .infokit1signingupcopy6 .stroke103 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 40px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+}
+.informationkit .group10 .infokit1signingupcopy6 .stroke122 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 29px;
+  height              : 21px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+}
+.informationkit .group8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 595px;
+  height              : 310px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 890px;
+  transition          : all 0.2s ease-in-out;
+}
+.informationkit .group8:hover {
+  transform           : translate(0, -5px);
+  box-shadow          : 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.informationkit .group8 .maskcopy7 {
+  background-color    : rgba(193, 193, 193, 1.0);
+  top                 : 0px;
+  height              : 310px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+}
+.informationkit .group8 .exchange {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 193px;
+  height              : auto;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.41px;
+  line-height         : 21.0px;
+}
+.informationkit .group8 .infokit1signingupcopy4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 99px;
+  height              : 75px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+}
+.informationkit .group8 .infokit1signingupcopy4 .rectangle55 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 75px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.informationkit .group8 .infokit1signingupcopy4 .stroke24 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : 30px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+}
+.informationkit .group8 .infokit1signingupcopy4 .stroke33 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 49px;
+}
+.informationkit .group8 .infokit1signingupcopy4 .stroke45 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 33px;
+  height              : 30px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+}
+.informationkit .group8 .infokit1signingupcopy4 .stroke53 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 42px;
+  height              : 21px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+}
+.informationkit .group8 .infokit1signingupcopy4 .stroke64 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 35px;
+  height              : 28px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+}
+.informationkit .group8 .infokit1signingupcopy4 .stroke72 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 42px;
+  height              : 21px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.informationkit .group8 .infokit1signingupcopy4 .stroke84 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 59px;
+  height              : 4px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.informationkit .group4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1255px;
+  height              : 310px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 570px;
+  transition          : all 0.2s ease-in-out;
+}
+.informationkit .group4:hover {
+  transform           : translate(0, -5px);
+  box-shadow          : 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.informationkit .group4 .maskcopy12 {
+  background-color    : rgba(193, 193, 193, 1.0);
+  top                 : 0px;
+  height              : 310px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+}
+.informationkit .group4 .privacy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 193px;
+  height              : auto;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.41px;
+  line-height         : 21.0px;
+}
+.informationkit .group4 .infokit1signingupcopy9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 99px;
+  height              : 75px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+}
+.informationkit .group4 .infokit1signingupcopy9 .rectangle56 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 75px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.informationkit .group4 .infokit1signingupcopy9 .stroke25 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : 40px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+}
+.informationkit .group4 .infokit1signingupcopy9 .stroke34 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 24px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+}
+.informationkit .group4 .infokit1signingupcopy9 .stroke54 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 39px;
+  height              : 19px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+}
+.informationkit .group7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 595px;
+  height              : 310px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 570px;
+  transition          : all 0.2s ease-in-out;
+}
+.informationkit .group7:hover {
+transform           : translate(0, -5px);
+  box-shadow          : 0px 12px 5px -8px rgba(0,0,0,0.2);
+  
+}
+.informationkit .group7 .maskcopy51 {
+  background-color    : rgba(193, 193, 193, 1.0);
+  top                 : 0px;
+  height              : 310px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+}
+.informationkit .group7 .infokit1signingupcopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 99px;
+  height              : 75px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+}
+.informationkit .group7 .infokit1signingupcopy .rectangle4copy42 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 75px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 37px;
+}
+.informationkit .group7 .infokit1signingupcopy .stroke35 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : 34px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+}
+.informationkit .group7 .infokit1signingupcopy .stroke55 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 34px;
+  height              : 14px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+}
+.informationkit .group7 .infokit1signingupcopy .stroke73 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 42px;
+  height              : 18px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+}
+.informationkit .group7 .depositswithdrawacopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 217px;
+  height              : auto;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.informationkit .group7 .fiat {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 193px;
+  height              : auto;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.41px;
+  line-height         : 21.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

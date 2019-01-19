@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="183px" height="43px" viewBox="0 0 183 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 29</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-348.000000, -755.000000)">
+            <g id="S2_BTC" transform="translate(0.000000, 725.000000)">
+                <g id="Prices">
+                    <g id="b2" transform="translate(288.000000, 0.000000)">
+                        <g id="Group-29" transform="translate(53.000000, 26.000000)">
+                            <g id="Group-16" transform="translate(7.000000, 28.000000)">
+                                <text id="R-11,489" font-family="SFProText-Regular, SF Pro Text" font-size="16" font-weight="normal" line-spacing="21">
+                                    <tspan x="0" y="15" fill="#8D95A2">R </tspan>
+                                    <tspan x="14.96875" y="15" fill="#FFFFFF">11,489</tspan>
+                                </text>
+                                <text id="5.04%" font-family="SFCompactText-Bold, SF Compact Text" font-size="10" font-weight="bold" fill="#82D739">
+                                    <tspan x="72" y="16">5.04%</tspan>
+                                </text>
+                            </g>
+                            <g id="Group-24">
+                                <text id="Ethereum" font-family="SFCompactText-Bold, SF Compact Text" font-size="12" font-weight="bold" letter-spacing="0.360000014" fill="#FAFAFA">
+                                    <tspan x="25" y="16">ETHEREUM</tspan>
+                                </text>
+                                <g id="Wallet/4_ETH_white">
+                                    <path d="M12.0002857,24 C5.37244351,24 0,18.6275565 0,11.9997143 C0,5.37244351 5.37244351,0 12.0002857,0 C18.6275565,0 24,5.37244351 24,11.9997143 C24,18.6275565 18.6275565,24 12.0002857,24 Z" id="Fill-23"></path>
+                                    <polygon id="Fill-4" fill="#8D95A2" fill-rule="evenodd" points="12.0002423 4.71486071 7.54569689 12.1883153 12.0002423 14.7371637 16.4547878 12.1883153"></polygon>
+                                    <polygon id="Fill-6" fill="#8D95A2" fill-rule="evenodd" points="12.0002423 19.2848728 7.61696962 13.1401456 12.0002423 15.6872971 16.3818181 13.1401456"></polygon>
+                                </g>
+                            </g>
+                            <path d="M129,34 L130,34 L132,36 L133,34 L135,36 C135.851057,34.6845288 136.517723,34.0178621 137,34 C137.082817,33.9969327 137.92337,36.0020139 139,36 C139.565648,35.9989419 140.729346,35.0363063 142,35 C142.684805,34.9804331 143.5,38 145,38 C146.5,38 146.840988,35.1053649 148,35 C148.180488,34.9835919 148.412419,34.0451186 150,34 C150.670388,33.9809478 151.002256,35.3329574 153,35 C154.997744,34.6670426 156,34 156,31 C156,29 156.333333,26.3333333 157,23 C157.146363,23.6666667 157.479696,24 158,24 C158.780456,24 159,23 160,23 C161,23 161,24 163,23 C164.333333,22.3333333 165.666667,21.3333333 167,20 L168,20 C168.486604,18.1021802 169.15327,17.4355135 170,18 C170.105319,18.0702129 170.458026,18.2519507 171.05812,18.5452133 C171.323646,18.6749742 172.222661,20 173,20 C173.518226,20 174.184893,19.3333333 175,18 L177,17 C177.04287,17.8316206 177.376203,18.1649539 178,18 C178.623797,17.8350461 179.306515,17.2330329 180.048154,16.1939604 L182,14 L184,16 C185.519799,14.3841609 186.519799,13.3841609 187,13 C187.480201,12.6158391 188.146868,12.2825058 189,12" id="Line-3-Copy-2" stroke="#B5BDCA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

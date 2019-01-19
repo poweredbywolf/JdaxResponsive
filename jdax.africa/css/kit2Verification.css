@@ -1,0 +1,1295 @@
+
+@font-face {
+  font-family: "SFProText-Regular";
+  src: url('../fonts/SF-Pro-Text-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactText-Light";
+  src: url('../fonts/SFCompactText-Light.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactText-Bold";
+  src: url('../fonts/SFCompactText-Bold.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactText-Regular";
+  src: url('../fonts/SFCompactText-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFProText-Bold";
+  src: url('../fonts/SF-Pro-Text-Bold.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactText-Medium";
+  src: url('../fonts/SFCompactText-Medium.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactDisplay-Regular";
+  src: url('../fonts/SFCompactDisplay-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFProText-Medium";
+  src: url('../fonts/SF-Pro-Text-Medium.otf') format("opentype");
+}
+
+.kit2-verification {
+  width               : 100%;
+  min-width           : 1440px;
+  min-height          : 810px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(252, 252, 252, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.kit2-verification .verification {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 117px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 587px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 42.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 50.0px;
+}
+.kit2-verification .certain-deposit-with {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 203px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 398px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.36px;
+  line-height         : 26.0px;
+}
+.kit2-verification .group {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 272px;
+  height              : 22px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 151px;
+}
+.kit2-verification .group .stroke2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit2-verification .group .stroke4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 2px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.kit2-verification .group .stroke6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 2px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.kit2-verification .group .stroke8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 2px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.kit2-verification .group .stroke10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+}
+.kit2-verification .group .stroke12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : 5px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+}
+.kit2-verification .mask-copy12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 318px;
+  height              : 375px;
+  width               : 282px;
+  position            : absolute;
+  margin              : 0;
+  left                : 144px;
+}
+.kit2-verification .confirm-email-addres {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 510px;
+  height              : auto;
+  width               : 224px;
+  position            : absolute;
+  margin              : 0;
+  left                : 173px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.36px;
+  line-height         : 21.0px;
+}
+.kit2-verification .rectangle13-copy {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 383px;
+  height              : 1px;
+  width               : 238px;
+  position            : absolute;
+  margin              : 0;
+  left                : 166px;
+}
+.kit2-verification .access-to-jdax-walle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 641px;
+  height              : auto;
+  width               : 224px;
+  position            : absolute;
+  margin              : 0;
+  left                : 173px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.kit2-verification .rectangle13-copy5 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 616px;
+  height              : 1px;
+  width               : 238px;
+  position            : absolute;
+  margin              : 0;
+  left                : 166px;
+}
+.kit2-verification .sign-up {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 344px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 252px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit2-verification .mask-copy11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 318px;
+  height              : 375px;
+  width               : 282px;
+  position            : absolute;
+  margin              : 0;
+  left                : 434px;
+}
+.kit2-verification .confirm-mobile-numbe {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 510px;
+  height              : auto;
+  width               : 224px;
+  position            : absolute;
+  margin              : 0;
+  left                : 463px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.36px;
+  line-height         : 21.0px;
+}
+.kit2-verification .rectangle13-copy2 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 383px;
+  height              : 1px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 451px;
+}
+.kit2-verification .rectangle13-copy6 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 616px;
+  height              : 1px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 451px;
+}
+.kit2-verification .r20000 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 649px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 450px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.kit2-verification .oneoff {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 654px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 517px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.kit2-verification .deposits {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 632px;
+  height              : auto;
+  width               : 112px;
+  position            : absolute;
+  margin              : 0;
+  left                : 451px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.kit2-verification .r200001 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 649px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 586px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.kit2-verification .oneoff1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 654px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 653px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.kit2-verification .withdrawals {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 632px;
+  height              : auto;
+  width               : 112px;
+  position            : absolute;
+  margin              : 0;
+  left                : 587px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.kit2-verification .rectangle13 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 627px;
+  height              : 50px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 575px;
+}
+.kit2-verification .level1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 343px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 544px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit2-verification .mask-copy10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 318px;
+  height              : 375px;
+  width               : 282px;
+  position            : absolute;
+  margin              : 0;
+  left                : 724px;
+}
+.kit2-verification .upload-copy-of-your {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 510px;
+  height              : auto;
+  width               : 224px;
+  position            : absolute;
+  margin              : 0;
+  left                : 753px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.36px;
+  line-height         : 21.0px;
+}
+.kit2-verification .rectangle13-copy3 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 383px;
+  height              : 1px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 741px;
+}
+.kit2-verification .r40000 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 649px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 740px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.kit2-verification .month {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 654px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 807px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.kit2-verification .deposits1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 632px;
+  height              : auto;
+  width               : 110px;
+  position            : absolute;
+  margin              : 0;
+  left                : 741px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.kit2-verification .r400001 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 649px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 875px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.kit2-verification .month1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 654px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 942px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.kit2-verification .withdrawals1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 632px;
+  height              : auto;
+  width               : 110px;
+  position            : absolute;
+  margin              : 0;
+  left                : 876px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.kit2-verification .rectangle131 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 627px;
+  height              : 50px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 864px;
+}
+.kit2-verification .rectangle13-copy7 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 616px;
+  height              : 1px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 741px;
+}
+.kit2-verification .level2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 343px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 833px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit2-verification .mask-copy9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 318px;
+  height              : 375px;
+  width               : 282px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1014px;
+}
+.kit2-verification .submit-proof-of-resi {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 510px;
+  height              : auto;
+  width               : 224px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1043px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.36px;
+  line-height         : 21.0px;
+}
+.kit2-verification .accepted-documents {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 546px;
+  height              : auto;
+  width               : 224px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1043px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(5, 192, 200, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+  text-decoration     : underline;
+}
+.kit2-verification .rectangle13-copy4 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 383px;
+  height              : 1px;
+  width               : 238px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1036px;
+}
+.kit2-verification .unlimited {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 641px;
+  height              : auto;
+  width               : 184px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1063px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.kit2-verification .rectangle13-copy8 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 616px;
+  height              : 1px;
+  width               : 238px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1036px;
+}
+.kit2-verification .level3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 343px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1123px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit2-verification .accepted-documents1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 566px;
+  height              : auto;
+  width               : 224px;
+  position            : absolute;
+  margin              : 0;
+  left                : 753px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(5, 192, 200, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+  text-decoration     : underline;
+}
+.kit2-verification .you-can-use-jdax-wa {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 699px;
+  height              : auto;
+  width               : 258px;
+  position            : absolute;
+  margin              : 0;
+  left                : 156px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(5, 192, 200, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.kit2-verification .nav-bar1-default {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit2-verification .nav-bar1-default .rectangle {
+  background-color    : rgba(36, 40, 48, 1.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit2-verification .nav-bar1-default .rectangle4-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 196px;
+  opacity             : 0.0;
+}
+.kit2-verification .nav-bar1-default .wallets {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 204px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit2-verification .nav-bar1-default .rectangle4-copy1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 346px;
+  opacity             : 0.0;
+}
+.kit2-verification .nav-bar1-default .exchange {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 354px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit2-verification .nav-bar1-default .rectangle4-copy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 496px;
+  opacity             : 0.0;
+}
+.kit2-verification .nav-bar1-default .information-kit {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 504px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit2-verification .nav-bar1-default .rectangle4-copy3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 646px;
+  opacity             : 0.0;
+}
+.kit2-verification .nav-bar1-default .support {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 654px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit2-verification .nav-bar1-default .tool-bar-search-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 12px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+}
+.kit2-verification .nav-bar1-default .tool-bar-search-copy .path3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit2-verification .nav-bar1-default .tool-bar-search-copy .path3-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 2px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit2-verification .nav-bar1-default .tool-bar-search-copy .path3-copy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 2px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit2-verification .nav-bar1-default .jdax-logo-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 27px;
+  width               : 110px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+}
+.kit2-verification .nav-bar1-default .jdax-logo-copy .fill1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 20px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+}
+.kit2-verification .nav-bar1-default .jdax-logo-copy .fill3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 19px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+}
+.kit2-verification .nav-bar1-default .jdax-logo-copy .fill5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 19px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+}
+.kit2-verification .nav-bar1-default .jdax-logo-copy .fill7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 19px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+}
+.kit2-verification .nav-bar1-default .jdax-logo-copy .group1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit2-verification .nav-bar1-default .jdax-logo-copy .group1 .fill11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.kit2-verification .nav-bar1-default .jdax-logo-copy .group1 .fill2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.kit2-verification .nav-bar1-default .jdax-logo-copy .group1 .fill31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 18px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit2-verification .nav-bar1-default .jdax-logo-copy .group1 .fill6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.kit2-verification .nav-bar1-default .rectangle4-copy31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 995px;
+  opacity             : 0.0;
+}
+.kit2-verification .nav-bar1-default .btc-zar136599 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 995px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit2-verification .nav-bar1-default .log-in {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 70px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1280px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit2-verification .nav-bar1-default .sign-up1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1185px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(249, 249, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.kit2-verification .nav-bar1-default .rectangle9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 32px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1165px;
+  border-radius       : 16px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(100, 107, 120, 1.0);
+}
+.kit2-verification .verification-levels {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 270px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 195px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.kit2-verification .graphics-x-grey {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 112px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1348px;
+}
+.kit2-verification .graphics-x-grey .stroke1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit2-verification .graphics-x-grey .stroke3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit2-verification .oval3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 414px;
+  height              : 76px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 247px;
+}
+.kit2-verification .group2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 440px;
+  height              : 24px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 267px;
+}
+.kit2-verification .group2 .stroke41 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit2-verification .group2 .stroke61 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : 11px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit2-verification .group2 .stroke7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit2-verification .oval3-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 414px;
+  height              : 76px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 537px;
+}
+.kit2-verification .verification1-email-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 428px;
+  height              : 48px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 551px;
+}
+.kit2-verification .verification1-email-copy .rectangle5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 48px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit2-verification .verification1-email-copy .group3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 38px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.kit2-verification .verification1-email-copy .group3 .stroke21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit2-verification .verification1-email-copy .group3 .stroke42 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 27px;
+  height              : 4px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit2-verification .verification1-email-copy .group3 .stroke62 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 4px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit2-verification .verification1-email-copy .group3 .stroke81 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 3px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.kit2-verification .verification1-email-copy .group3 .stroke101 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 30px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+}
+.kit2-verification .oval3-copy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 414px;
+  height              : 76px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 827px;
+}
+.kit2-verification .group16 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 433px;
+  height              : 38px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 851px;
+}
+.kit2-verification .group16 .stroke22 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.kit2-verification .group16 .stroke43 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+}
+.kit2-verification .group16 .stroke63 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 23px;
+  height              : 2px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit2-verification .group16 .stroke82 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 27px;
+  height              : 2px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit2-verification .group16 .stroke102 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 30px;
+  height              : 2px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit2-verification .group16 .stroke121 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.kit2-verification .group16 .stroke14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 11px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+}
+.kit2-verification .oval3-copy3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 414px;
+  height              : 76px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1117px;
+}
+.kit2-verification .group4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 433px;
+  height              : 38px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1135px;
+}
+.kit2-verification .group4 .stroke83 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 30px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+}
+.kit2-verification .group4 .stroke9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 23px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="445px" viewBox="0 0 256 445" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="244" height="433" rx="4"></rect>
+        <filter x="-3.3%" y="-1.8%" width="106.6%" height="103.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-15" transform="translate(6.000000, 6.000000)">
+            <g id="Mask-Copy-10">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use stroke="#F2F3F7" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <rect id="Rectangle-13-Copy" fill="#ECECEC" x="16" y="50" width="212" height="1"></rect>
+            <g id="Group" transform="translate(16.000000, 375.000000)">
+                <rect id="Rectangle-3-Copy-5" fill="#CCCCCC" transform="translate(106.000000, 21.000000) scale(-1, 1) translate(-106.000000, -21.000000) " x="0" y="0" width="212" height="42" rx="3"></rect>
+                <text id="Next" font-family="SFCompactText-Bold, SF Compact Text" font-size="14" font-weight="bold" letter-spacing="1" fill="#FFFFFF">
+                    <tspan x="86.4589844" y="26">NEXT</tspan>
+                </text>
+            </g>
+            <text id="Your-Amount" font-family="SFCompactText-Bold, SF Compact Text" font-size="12" font-weight="bold" letter-spacing="0.360000014" fill="#CCCCCC">
+                <tspan x="16" y="88">YOUR AMOUNT</tspan>
+            </text>
+            <g id="Group-8" transform="translate(16.000000, 97.000000)">
+                <rect id="Rectangle-3-Copy-3" stroke="#ECECEC" x="0.5" y="0.5" width="211" height="39" rx="3"></rect>
+                <text id="BTC" font-family="SFProText-Bold, SF Pro Text" font-size="14" font-weight="bold" fill="#000000">
+                    <tspan x="28.3369141" y="25">BTC</tspan>
+                </text>
+                <rect id="Rectangle-3-Copy-13" fill="#ECECEC" x="85" y="0" width="1" height="40"></rect>
+                <text id="Type-amount" font-family="SFProText-Regular, SF Pro Text" font-size="15" font-weight="normal" line-spacing="20" letter-spacing="-0.3617647" fill="#CCCCCC">
+                    <tspan x="102" y="24">Type amount</tspan>
+                </text>
+            </g>
+            <text id="Receive" font-family="SFCompactText-Bold, SF Compact Text" font-size="12" font-weight="bold" letter-spacing="0.360000014" fill="#CCCCCC">
+                <tspan x="16" y="174">RECEIVE</tspan>
+            </text>
+            <g id="Group-9" transform="translate(16.000000, 183.000000)">
+                <g id="Graphics/Nav/Down/Grey" transform="translate(53.000000, 8.000000)" stroke="#CCCCCC" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5">
+                    <polyline id="Path-3-Copy-2" transform="translate(12.000000, 12.500000) rotate(-90.000000) translate(-12.000000, -12.500000) " points="15 18 9 12.5 15 7"></polyline>
+                </g>
+                <rect id="Rectangle-3-Copy-13" fill="#ECECEC" x="85" y="0" width="1" height="40"></rect>
+                <rect id="Rectangle-3-Copy-18" stroke="#ECECEC" x="0.5" y="0.5" width="211" height="39" rx="3"></rect>
+                <text id="Type-amount" font-family="SFProText-Regular, SF Pro Text" font-size="15" font-weight="normal" line-spacing="20" letter-spacing="-0.3617647" fill="#CCCCCC">
+                    <tspan x="102" y="24">Type amount</tspan>
+                </text>
+                <text id="ZAR" font-family="SFProText-Bold, SF Pro Text" font-size="14" font-weight="bold" fill="#2E2E2E">
+                    <tspan x="16" y="25">ZAR</tspan>
+                </text>
+            </g>
+            <g id="Group-11" transform="translate(78.000000, 13.000000)">
+                <g id="Trade/Sell">
+                    <rect id="Rectangle-4-Copy-4" x="0" y="0" width="24" height="24" rx="12"></rect>
+                    <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(6.000000, 6.000000)" stroke="#FB4227" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12.8425,2.827 L0.1585,2.827" id="Stroke-3" stroke-width="1.5"></path>
+                        <polyline id="Stroke-5" stroke-width="1.5" points="10.1504 0.1366 12.8404 2.8276 10.1504 5.5186"></polyline>
+                    </g>
+                    <g id="Group" opacity="0.5" stroke-width="1" fill-rule="evenodd" transform="translate(5.000000, 12.000000)" stroke="#FB4227" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M0.1584,3.1737 L12.8424,3.1737" id="Stroke-7" stroke-width="1.5"></path>
+                        <polyline id="Stroke-9" stroke-width="1.5" points="2.8506 5.8651 0.1596 3.1741 2.8506 0.4821"></polyline>
+                    </g>
+                </g>
+                <text id="Sell" font-family="SFCompactText-Bold, SF Compact Text" font-size="16" font-weight="bold" letter-spacing="0.36" fill="#2E2E2E">
+                    <tspan x="30.0417188" y="18">SELL</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

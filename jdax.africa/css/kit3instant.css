@@ -1,0 +1,1299 @@
+/*
+
+@font-face {
+  font-family: "SFCompactText-Bold";
+  src: url('../fonts/SFCompactText-Bold.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFProText-Regular";
+  src: url('../fonts/SF-Pro-Text-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactText-Regular";
+  src: url('../fonts/SFCompactText-Regular.otf') format("opentype");
+}
+*/
+
+.kit3instant {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 1693px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(252, 252, 252, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.kit3instant .group2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  width               : 1440px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.kit3instant .group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1469px;
+  align-items         : center;
+  height              : 224px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.kit3instant .group2 .rectangle4 {
+  background-color    : rgba(36, 40, 48, 1.0);
+  top                 : 0px;
+  height              : 224px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group2 .group16 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  width               : 930px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.kit3instant .group2 .group16-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 56px;
+  align-items         : center;
+  height              : 95px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.kit3instant .group2 .group16 .group7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 95px;
+  width               : 279px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group2 .group16 .group7 .whataredigitalass {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 279px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(100, 107, 120, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit3instant .group2 .group16 .group7 .digitalassetsisa {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 35px;
+  height              : auto;
+  width               : 279px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(181, 189, 202, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.34px;
+  line-height         : 20.0px;
+}
+.kit3instant .group2 .group16 .group10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 95px;
+  width               : 279px;
+  position            : absolute;
+  margin              : 0;
+  left                : 326px;
+}
+.kit3instant .group2 .group16 .group10 .supporteddigitalas {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 279px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(100, 107, 120, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit3instant .group2 .group16 .group10 .jdaxexchangecurren {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 35px;
+  height              : auto;
+  width               : 279px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(181, 189, 202, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.34px;
+  line-height         : 20.0px;
+}
+.kit3instant .group2 .group16 .group14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 75px;
+  width               : 279px;
+  position            : absolute;
+  margin              : 0;
+  left                : 651px;
+}
+.kit3instant .group2 .group16 .group14 .whatisawallet {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 279px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(100, 107, 120, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit3instant .group2 .group16 .group14 .thisiswhereyoubu {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 35px;
+  height              : auto;
+  width               : 279px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(181, 189, 202, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.34px;
+  line-height         : 20.0px;
+}
+.kit3instant .group17 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  width               : 1145px;
+  margin-right        : -92px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 92px;
+  position            : relative;
+}
+.kit3instant .group17-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 100px;
+  align-items         : center;
+  height              : 1296px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.kit3instant .group17 .instantbuysell {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 17px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 290px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 42.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 50.0px;
+}
+.kit3instant .group17 .fordigitalassets {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 76px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 340px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : center;
+  line-height         : 36.0px;
+}
+.kit3instant .group17 .graphicsxgrey {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 12px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1109px;
+}
+.kit3instant .group17 .graphicsxgrey .stroke1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .graphicsxgrey .stroke3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 185px;
+  height              : 1111px;
+  width               : 1020px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .rectangle7 {
+  background-color    : rgba(245, 246, 248, 1.0);
+  top                 : 56px;
+  height              : 102px;
+  width               : 581px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+}
+.kit3instant .group17 .group6 .entertheamountwan {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 793px;
+  height              : auto;
+  width               : 504px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit3instant .group17 .group6 .selectwalletsfrom {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 687px;
+  height              : auto;
+  width               : 504px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit3instant .group17 .group6 .enteramount {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 765px;
+  height              : auto;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit3instant .group17 .group6 .gotoyourwallet {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 659px;
+  height              : auto;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit3instant .group17 .group6 .selectyourpreferre {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 920px;
+  height              : auto;
+  width               : 504px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit3instant .group17 .group6 .selectthecurrency {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 892px;
+  height              : auto;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit3instant .group17 .group6 .makesureallthede {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1026px;
+  height              : auto;
+  width               : 504px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit3instant .group17 .group6 .instantsell {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 998px;
+  height              : auto;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit3instant .group17 .group6 .sellingdigitalcurr {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 592px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 594px;
+  height              : 22px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy7 .group {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 8px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy7 .group .line {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 2px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy7 .group .linecopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 2px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy7 .group .stroke9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 8px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy7 .group4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy7 .group4 .group3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 13px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy7 .group4 .group3 .stroke11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1px;
+  height              : 6px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy7 .group4 .group3 .stroke31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy7 .group4 .group3 .stroke5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy7 .group4 .group3 .stroke7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 4px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy7 .group4 .group3 .stroke91 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy7 .group4 .oval {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .selectwalletsfrom1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 100px;
+  height              : auto;
+  width               : 504px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit3instant .group17 .group6 .gotoyourwallet1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 72px;
+  height              : auto;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit3instant .group17 .group6 .group31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 178px;
+  height              : 91px;
+  width               : 549px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.kit3instant .group17 .group6 .group31 .entertheamountwan1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : auto;
+  width               : 504px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit3instant .group17 .group6 .group31 .enteramount1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit3instant .group17 .group6 .group31 .graphicsnumbers1copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .group31 .graphicsnumbers1copy .oval2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .group31 .graphicsnumbers1copy .a2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(130, 214, 57, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit3instant .group17 .group6 .graphicsnumbers1copy5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 765px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.kit3instant .group17 .group6 .graphicsnumbers1copy5 .oval21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .graphicsnumbers1copy5 .a21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(5, 192, 200, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit3instant .group17 .group6 .graphicsnumbers1copy4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 72px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.kit3instant .group17 .group6 .graphicsnumbers1copy4 .oval22 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .graphicsnumbers1copy4 .a1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(130, 214, 57, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit3instant .group17 .group6 .graphicsnumbers1copy6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 659px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.kit3instant .group17 .group6 .graphicsnumbers1copy6 .oval23 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .graphicsnumbers1copy6 .a11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(5, 192, 200, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit3instant .group17 .group6 .group41 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 305px;
+  height              : 70px;
+  width               : 549px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.kit3instant .group17 .group6 .group41 .selectyourpreferre1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : auto;
+  width               : 504px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit3instant .group17 .group6 .group41 .selectthecurrency1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit3instant .group17 .group6 .group41 .graphicsnumbers1copy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .group41 .graphicsnumbers1copy2 .oval24 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .group41 .graphicsnumbers1copy2 .a3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(130, 214, 57, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit3instant .group17 .group6 .graphicsnumbers1copy7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 892px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.kit3instant .group17 .group6 .graphicsnumbers1copy7 .oval25 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .graphicsnumbers1copy7 .a31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(5, 192, 200, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit3instant .group17 .group6 .group5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 411px;
+  height              : 70px;
+  width               : 549px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.kit3instant .group17 .group6 .group5 .makesureallthede1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : auto;
+  width               : 504px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kit3instant .group17 .group6 .group5 .instantbuy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  font-family         : "SFCompactText-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 19.0px;
+}
+.kit3instant .group17 .group6 .group5 .graphicsnumbers1copy3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .group5 .graphicsnumbers1copy3 .oval26 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .group5 .graphicsnumbers1copy3 .a4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(130, 214, 57, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit3instant .group17 .group6 .graphicsnumbers1copy8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 998px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.kit3instant .group17 .group6 .graphicsnumbers1copy8 .oval27 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .graphicsnumbers1copy8 .a41 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(5, 192, 200, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kit3instant .group17 .group6 .buyingdigitalcurre {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  font-family         : "SFCompactText-Regular", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy71 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 22px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy71 .group1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 8px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy71 .group1 .line1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 2px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy71 .group1 .linecopy1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 2px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy71 .group1 .stroke92 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 8px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy71 .group42 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy71 .group42 .group32 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 13px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy71 .group42 .group32 .stroke12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1px;
+  height              : 6px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy71 .group42 .group32 .stroke32 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy71 .group42 .group32 .stroke51 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy71 .group42 .group32 .stroke71 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 4px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy71 .group42 .group32 .stroke93 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.kit3instant .group17 .group6 .techspecwirelesschargingcopy71 .group42 .oval1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .group13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 445px;
+  width               : 256px;
+  position            : absolute;
+  margin              : 0;
+  left                : 696px;
+}
+.kit3instant .group17 .group6 .graphicsnavforwardgreycopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 253px;
+  height              : 40px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 985px;
+  transition          : all 0.2s ease-in-out;
+}
+.kit3instant .group17 .group6 .graphicsnavforwardgreycopy:hover {
+  transform           : scale(1.1);
+}
+.kit3instant .group17 .group6 .graphicsnavforwardgreycopy .path3copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 25px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .pagecontrol4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 516px;
+  height              : 7px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 797px;
+}
+.kit3instant .group17 .group6 .pagecontrol4 .active {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .pagecontrol4 .inactive {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.kit3instant .group17 .group6 .pagecontrol4 .inactive1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.kit3instant .group17 .group6 .pagecontrol4 .inactivecopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+}
+.kit3instant .group17 .group6 .group15 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 637px;
+  height              : 445px;
+  width               : 256px;
+  position            : absolute;
+  margin              : 0;
+  left                : 696px;
+}
+.kit3instant .group17 .group6 .graphicsnavforwardgreycopy1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 840px;
+  height              : 40px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 985px;
+  transition          : all 0.2s ease-in-out;
+}
+.kit3instant .group17 .group6 .graphicsnavforwardgreycopy1:hover {
+  transform           : scale(1.1);
+}
+.kit3instant .group17 .group6 .graphicsnavforwardgreycopy1 .path3copy1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 25px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .pagecontrol4copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1103px;
+  height              : 7px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 797px;
+}
+.kit3instant .group17 .group6 .pagecontrol4copy .active1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.kit3instant .group17 .group6 .pagecontrol4copy .inactive2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.kit3instant .group17 .group6 .pagecontrol4copy .inactive3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.kit3instant .group17 .group6 .pagecontrol4copy .inactivecopy1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
